@@ -1,0 +1,41 @@
+{
+  "name": "pokemon-microservices",
+  "version": "1.0.0",
+  "description": "Pokemon microservices architecture with Express.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "start:search": "node services/search-api.js",
+    "start:stats": "node services/stats-api.js",
+    "start:images": "node services/images-api.js",
+    "start:poke": "node services/poke-api.js",
+    "dev:search": "nodemon services/search-api.js",
+    "dev:stats": "nodemon services/stats-api.js",
+    "dev:images": "nodemon services/images-api.js",
+    "dev:poke": "nodemon services/poke-api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "winston": "^3.11.0",
+    "helmet": "^7.1.0",
+    "dotenv": "^16.3.1",
+    "csv-parser": "^3.0.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "pokemon",
+    "microservices",
+    "express",
+    "api",
+    "logging"
+  ],
+  "author": "Pokemon Microservices Team",
+  "license": "MIT"
+}

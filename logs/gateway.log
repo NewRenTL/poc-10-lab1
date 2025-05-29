@@ -1,0 +1,733 @@
+2025-05-29 01:32:14.868 [GATEWAY] INFO: [GATEWAY][SERVER_START] Gateway server running on port 3000 {"port":"3000","environment":"production","microservices":{"SEARCH_API":"http://search-api:3001","STATS_API":"http://stats-api:3002","IMAGES_API":"http://images-api:3003","POKE_API":"http://poke-api:3004"}}
+2025-05-29 01:32:19.671 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:32:19.672 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:32:19.675 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":4,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:32:49.765 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:32:49.765 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:32:49.767 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":2,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:33:19.838 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:33:19.838 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:33:19.840 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":2,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:33:44.556 [GATEWAY] INFO: [GATEWAY][SHUTDOWN] Received SIGTERM, shutting down gracefully 
+2025-05-29 01:37:49.885 [GATEWAY] INFO: [GATEWAY][SERVER_START] Gateway server running on port 3000 {"port":"3000","environment":"production","microservices":{"SEARCH_API":"http://search-api:3001","STATS_API":"http://stats-api:3002","IMAGES_API":"http://images-api:3003","POKE_API":"http://poke-api:3004"}}
+2025-05-29 01:37:54.719 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:37:54.720 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:37:54.723 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":4,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:38:24.798 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:38:24.799 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:38:24.800 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":2,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:38:54.869 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:38:54.869 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:38:54.870 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:39:02.600 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET / {"method":"GET","url":"/","userAgent":"curl/8.9.1","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:39:02.601 [GATEWAY] INFO: [GATEWAY][ROOT_INFO] Gateway info requested 
+2025-05-29 01:39:02.602 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET / - 200 {"method":"GET","url":"/","statusCode":200,"latency":2,"userAgent":"curl/8.9.1","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:39:24.952 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:39:24.952 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:39:24.953 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:39:55.002 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:39:55.003 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:39:55.004 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":2,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:39:59.915 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.9.1","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:39:59.915 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:39:59.916 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.9.1","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:40:11.502 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /status {"method":"GET","url":"/status","userAgent":"curl/8.9.1","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:40:11.566 [GATEWAY] INFO: [GATEWAY][HEALTH_STATUS] Checking status of all microservices 
+2025-05-29 01:40:11.615 [GATEWAY] INFO: [GATEWAY][HEALTH_STATUS] Status check completed {"overall_status":"healthy","healthy_services":4,"total_services":4,"check_duration":48}
+2025-05-29 01:40:11.616 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /status - 200 {"method":"GET","url":"/status","statusCode":200,"latency":114,"userAgent":"curl/8.9.1","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:40:20.483 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"curl/8.9.1","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:40:20.484 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 01:40:22.439 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":1955,"response_size":1536}
+2025-05-29 01:40:22.440 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":1957,"userAgent":"curl/8.9.1","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:40:25.077 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:40:25.078 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:40:25.079 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":2,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:40:42.927 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"curl/8.9.1","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:40:42.928 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 01:40:43.272 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":344,"response_size":948}
+2025-05-29 01:40:43.272 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":345,"userAgent":"curl/8.9.1","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:40:55.137 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:40:55.137 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:40:55.137 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:41:25.195 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:41:25.196 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:41:25.196 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:41:47.736 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"curl/8.9.1","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:41:47.737 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 01:41:48.175 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":438,"response_size":1536}
+2025-05-29 01:41:48.176 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":440,"userAgent":"curl/8.9.1","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:41:55.273 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:41:55.274 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:41:55.274 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:42:04.748 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=charizard {"method":"GET","url":"/poke/search?pokemon_name=charizard","userAgent":"curl/8.9.1","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:42:04.749 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=charizard","method":"GET","original_url":"/poke/search?pokemon_name=charizard"}
+2025-05-29 01:42:06.765 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":2016,"response_size":1550}
+2025-05-29 01:42:06.765 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=charizard - 200 {"method":"GET","url":"/poke/search?pokemon_name=charizard","statusCode":200,"latency":2017,"userAgent":"curl/8.9.1","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:42:25.334 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:42:25.334 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:42:25.334 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:42:55.405 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:42:55.406 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:42:55.407 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:43:25.492 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:43:25.492 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:43:25.493 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:43:55.559 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:43:55.560 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:43:55.560 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:44:25.634 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:44:25.634 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:44:25.634 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:44:55.705 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:44:55.705 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:44:55.707 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":2,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:45:25.772 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:45:25.772 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:45:25.772 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:45:55.843 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:45:55.843 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:45:55.844 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:46:25.893 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:46:25.893 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:46:25.894 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:46:55.993 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:46:55.993 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:46:55.994 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:47:26.047 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:47:26.048 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:47:26.048 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:47:56.103 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:47:56.103 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:47:56.103 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:48:26.177 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:48:26.178 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:48:26.178 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:48:56.245 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:48:56.246 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:48:56.246 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:49:26.305 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:49:26.305 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:49:26.306 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:49:56.378 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:49:56.379 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:49:56.380 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:50:26.450 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:50:26.450 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:50:26.451 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:50:56.529 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:50:56.529 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:50:56.529 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:51:26.590 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:51:26.591 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:51:26.591 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:51:56.687 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:51:56.688 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:51:56.688 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:52:26.772 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:52:26.772 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:52:26.773 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:52:56.846 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:52:56.846 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:52:56.847 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:53:26.915 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:53:26.915 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:53:26.915 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:53:56.994 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:53:56.995 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:53:56.995 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:54:27.057 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:54:27.058 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:54:27.058 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:54:57.128 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:54:57.129 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:54:57.129 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:55:27.211 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:55:27.212 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:55:27.213 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":2,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:55:45.660 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:45.660 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:55:45.661 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:47.237 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:47.237 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:55:47.238 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:47.676 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:47.676 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 01:55:48.529 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":853,"response_size":1536}
+2025-05-29 01:55:48.529 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":853,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:48.887 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:48.887 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:55:48.888 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:49.246 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:49.247 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 01:55:49.372 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":125,"response_size":1536}
+2025-05-29 01:55:49.373 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":127,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:50.538 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:50.539 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 01:55:50.662 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":123,"response_size":948}
+2025-05-29 01:55:50.663 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":125,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:50.895 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:50.895 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 01:55:51.017 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":122,"response_size":1536}
+2025-05-29 01:55:51.018 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":123,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:51.377 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:51.378 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 01:55:51.383 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":5,"response_size":948}
+2025-05-29 01:55:51.384 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":7,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:52.668 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:52.668 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:55:52.669 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:53.027 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:53.028 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 01:55:53.034 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":5,"response_size":948}
+2025-05-29 01:55:53.034 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":7,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:53.399 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:53.399 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:55:53.400 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:54.684 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:54.684 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 01:55:54.808 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":124,"response_size":1536}
+2025-05-29 01:55:54.809 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":125,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:55.044 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:55.044 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:55:55.044 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:55.404 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:55.405 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 01:55:55.527 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":122,"response_size":1536}
+2025-05-29 01:55:55.527 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":123,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:56.825 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:56.825 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 01:55:56.830 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":5,"response_size":948}
+2025-05-29 01:55:56.831 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":6,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:57.059 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:57.059 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 01:55:57.178 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":119,"response_size":1536}
+2025-05-29 01:55:57.178 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":119,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:57.291 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:55:57.292 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:55:57.292 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:55:57.546 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:57.546 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 01:55:57.551 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":5,"response_size":948}
+2025-05-29 01:55:57.552 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":7,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:58.837 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:58.838 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:55:58.838 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:59.195 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:59.195 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 01:55:59.200 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":4,"response_size":948}
+2025-05-29 01:55:59.201 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":6,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:59.556 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:55:59.557 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:55:59.557 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:56:00.853 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:56:00.853 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 01:56:00.974 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":120,"response_size":1536}
+2025-05-29 01:56:00.975 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":122,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:56:01.213 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:56:01.214 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:56:01.214 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:56:01.561 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:56:01.562 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 01:56:01.676 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":114,"response_size":1536}
+2025-05-29 01:56:01.677 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":116,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:56:02.991 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:56:02.992 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 01:56:02.997 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":5,"response_size":948}
+2025-05-29 01:56:02.998 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":7,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:56:03.226 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:56:03.226 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 01:56:03.352 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":126,"response_size":1536}
+2025-05-29 01:56:03.352 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":126,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 01:56:27.366 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:56:27.367 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:56:27.368 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":2,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:56:57.453 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:56:57.453 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:56:57.454 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:57:27.536 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:57:27.536 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:57:27.536 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:57:57.610 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:57:57.610 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:57:57.611 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:58:27.686 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:58:27.686 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:58:27.687 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":2,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:58:57.748 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:58:57.748 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:58:57.749 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:59:27.836 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:59:27.836 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:59:27.837 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:59:57.915 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:59:57.915 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 01:59:57.916 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:00:27.986 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:00:27.987 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:00:27.987 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:00:58.048 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:00:58.048 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:00:58.049 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:01:28.123 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:01:28.123 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:01:28.124 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:01:58.203 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:01:58.203 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:01:58.204 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:02:28.277 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:02:28.278 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:02:28.278 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:02:58.357 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:02:58.357 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:02:58.358 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:03:28.432 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:03:28.432 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:03:28.432 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:03:58.509 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:03:58.510 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:03:58.510 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:04:28.574 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:04:28.574 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:28.574 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:04:30.833 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:30.833 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:30.834 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:32.736 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:32.736 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:32.737 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:32.859 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:32.859 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:04:34.100 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":1240,"response_size":1536}
+2025-05-29 02:04:34.100 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":1241,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:34.734 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:34.735 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:34.735 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:34.747 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:34.748 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:04:34.870 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":122,"response_size":1536}
+2025-05-29 02:04:34.871 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":124,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:36.104 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:36.105 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:04:36.221 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":116,"response_size":948}
+2025-05-29 02:04:36.221 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":117,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:36.737 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:36.737 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:36.738 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:36.751 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:36.752 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:04:36.872 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":120,"response_size":1536}
+2025-05-29 02:04:36.873 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":122,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:36.888 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:36.889 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:04:36.895 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":6,"response_size":948}
+2025-05-29 02:04:36.896 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":8,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:38.225 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:38.225 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:38.225 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:38.730 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:38.731 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:38.731 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:38.742 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:38.743 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:04:38.861 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":118,"response_size":1536}
+2025-05-29 02:04:38.862 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":120,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:38.883 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:38.883 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:04:38.889 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":6,"response_size":948}
+2025-05-29 02:04:38.889 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":6,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:38.899 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:38.899 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:38.900 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:40.240 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:40.240 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:04:40.359 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":119,"response_size":1536}
+2025-05-29 02:04:40.360 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":120,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:40.738 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:40.738 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:04:40.852 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":114,"response_size":1536}
+2025-05-29 02:04:40.852 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":114,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:40.875 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:40.875 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:04:40.881 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":6,"response_size":948}
+2025-05-29 02:04:40.881 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":6,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:40.906 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:40.906 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:40.907 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:40.908 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:40.908 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:04:41.026 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":118,"response_size":1536}
+2025-05-29 02:04:41.027 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":119,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:42.365 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:42.365 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:04:42.371 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":6,"response_size":948}
+2025-05-29 02:04:42.372 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":7,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:42.862 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:42.863 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:04:42.870 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":7,"response_size":948}
+2025-05-29 02:04:42.871 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":9,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:42.893 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:42.893 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:42.894 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:42.924 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:42.925 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:04:43.034 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:43.034 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:04:43.042 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":8,"response_size":948}
+2025-05-29 02:04:43.042 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":8,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:43.050 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":125,"response_size":1536}
+2025-05-29 02:04:43.051 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":127,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:44.389 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:44.390 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:44.390 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:44.888 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:44.888 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:44.888 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:44.902 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:44.903 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:04:45.020 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":117,"response_size":1536}
+2025-05-29 02:04:45.020 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":118,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:45.055 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:45.056 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:45.056 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:45.058 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:45.058 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:04:45.065 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":5,"response_size":948}
+2025-05-29 02:04:45.066 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":9,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:46.405 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:46.405 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:04:46.524 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":119,"response_size":1536}
+2025-05-29 02:04:46.525 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":120,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:46.898 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:46.898 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:04:47.012 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":113,"response_size":1536}
+2025-05-29 02:04:47.013 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":115,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:47.038 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:47.039 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:04:47.045 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":6,"response_size":948}
+2025-05-29 02:04:47.045 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":7,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:47.069 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:47.069 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:47.070 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:47.071 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:47.071 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:04:47.189 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":118,"response_size":1536}
+2025-05-29 02:04:47.190 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":118,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:48.535 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:48.535 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:04:48.541 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":5,"response_size":948}
+2025-05-29 02:04:48.542 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":7,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:49.020 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:49.020 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:04:49.025 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":5,"response_size":948}
+2025-05-29 02:04:49.026 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":6,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:49.050 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:49.050 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:49.051 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:49.082 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:49.082 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:04:49.194 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":112,"response_size":1536}
+2025-05-29 02:04:49.195 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":114,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:49.205 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:49.205 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:04:49.211 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":6,"response_size":948}
+2025-05-29 02:04:49.212 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":7,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:50.553 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:50.553 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:50.554 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:51.038 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:51.039 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:51.039 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:51.070 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:51.070 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:04:51.197 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":127,"response_size":1536}
+2025-05-29 02:04:51.198 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":129,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:51.212 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:51.213 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:04:51.220 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":7,"response_size":948}
+2025-05-29 02:04:51.221 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":9,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:51.228 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:51.230 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:51.231 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":3,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:52.558 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:52.559 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:04:52.684 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":125,"response_size":1536}
+2025-05-29 02:04:52.685 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":127,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:53.053 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:53.053 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:04:53.169 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":116,"response_size":1536}
+2025-05-29 02:04:53.170 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":117,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:53.206 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:53.206 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:04:53.213 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":6,"response_size":948}
+2025-05-29 02:04:53.214 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":8,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:53.237 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:53.237 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:04:53.240 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:53.240 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:53.241 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:53.357 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":119,"response_size":1536}
+2025-05-29 02:04:53.358 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":121,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:54.699 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:54.700 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:04:54.705 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":5,"response_size":948}
+2025-05-29 02:04:54.705 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":6,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:55.185 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:55.185 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:04:55.190 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":5,"response_size":948}
+2025-05-29 02:04:55.191 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":5,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:55.231 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:55.231 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:55.232 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:55.246 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:55.246 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:04:55.362 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":116,"response_size":1536}
+2025-05-29 02:04:55.362 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":116,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:55.370 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:55.370 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:04:55.376 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":6,"response_size":948}
+2025-05-29 02:04:55.376 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":6,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:56.724 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:56.724 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:56.725 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:57.206 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:57.207 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:57.207 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:57.237 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:57.238 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:04:57.356 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":117,"response_size":1536}
+2025-05-29 02:04:57.356 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":119,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:57.374 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:57.374 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:04:57.381 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":6,"response_size":948}
+2025-05-29 02:04:57.382 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":8,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:57.389 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:57.390 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:57.390 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:04:58.650 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:04:58.650 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:04:58.652 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:05:00.782 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:00.783 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:00.783 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:02.780 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:02.780 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:02.781 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:02.794 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:02.794 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:05:03.101 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":307,"response_size":1536}
+2025-05-29 02:05:03.102 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":308,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:04.778 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:04.779 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:04.779 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:04.792 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:04.792 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:05:04.909 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":117,"response_size":1536}
+2025-05-29 02:05:04.909 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":117,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:05.116 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:05.116 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:05:05.123 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":6,"response_size":948}
+2025-05-29 02:05:05.123 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":7,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:06.773 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:06.773 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:06.773 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:06.787 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:06.788 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:05:06.905 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":117,"response_size":1536}
+2025-05-29 02:05:06.906 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":118,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:06.924 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:06.925 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:05:06.930 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":5,"response_size":948}
+2025-05-29 02:05:06.930 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":6,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:07.130 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:07.130 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:07.130 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:08.780 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:08.780 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:05:08.782 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:08.782 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:08.783 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:08.896 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":115,"response_size":1536}
+2025-05-29 02:05:08.898 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":118,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:08.919 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:08.919 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:05:08.925 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":5,"response_size":948}
+2025-05-29 02:05:08.925 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":6,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:08.934 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:08.934 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:08.935 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:09.137 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:09.137 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:05:09.250 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":113,"response_size":1536}
+2025-05-29 02:05:09.251 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":114,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:10.788 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:10.788 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:05:10.901 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":113,"response_size":1536}
+2025-05-29 02:05:10.902 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":114,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:10.911 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:10.911 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:05:10.916 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":5,"response_size":948}
+2025-05-29 02:05:10.916 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":5,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:10.942 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:10.942 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:10.943 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:10.944 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:10.945 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:05:11.059 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":114,"response_size":1536}
+2025-05-29 02:05:11.059 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":115,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:11.266 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:11.267 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:05:11.274 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":7,"response_size":948}
+2025-05-29 02:05:11.274 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":8,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:12.918 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:12.919 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:05:12.923 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":4,"response_size":948}
+2025-05-29 02:05:12.924 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":6,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:12.933 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:12.933 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:12.934 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:12.949 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:12.949 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:05:13.070 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":121,"response_size":1536}
+2025-05-29 02:05:13.071 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":121,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:13.073 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:13.073 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:05:13.077 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":4,"response_size":948}
+2025-05-29 02:05:13.078 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":6,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:13.290 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:13.290 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:13.291 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:14.938 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:14.938 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:05:14.939 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:14.939 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:14.940 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:15.051 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":113,"response_size":1536}
+2025-05-29 02:05:15.051 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":113,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:15.076 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:15.076 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:05:15.083 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":7,"response_size":948}
+2025-05-29 02:05:15.084 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":8,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:15.091 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:15.091 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:15.092 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:15.309 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:15.309 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:05:15.421 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":111,"response_size":1536}
+2025-05-29 02:05:15.422 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":113,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:16.956 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:16.956 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:05:17.063 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:17.063 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:05:17.069 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":6,"response_size":948}
+2025-05-29 02:05:17.069 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":6,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:17.077 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":121,"response_size":1536}
+2025-05-29 02:05:17.077 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":121,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:17.094 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:17.094 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:17.095 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:17.109 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:17.110 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:05:17.222 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":112,"response_size":1536}
+2025-05-29 02:05:17.223 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":114,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:17.436 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:17.436 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:05:17.441 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":5,"response_size":948}
+2025-05-29 02:05:17.441 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":5,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:19.081 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:19.081 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:19.081 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:19.095 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:19.096 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:05:19.101 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":5,"response_size":948}
+2025-05-29 02:05:19.102 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":7,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:19.110 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:19.111 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:05:19.227 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":116,"response_size":1536}
+2025-05-29 02:05:19.228 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":118,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:19.233 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:19.234 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:05:19.242 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":8,"response_size":948}
+2025-05-29 02:05:19.243 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":10,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:19.450 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:19.450 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:19.451 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:21.088 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:21.088 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:05:21.115 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:21.115 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:21.115 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:21.206 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":117,"response_size":1536}
+2025-05-29 02:05:21.207 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":119,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:21.238 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:21.238 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:05:21.245 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":7,"response_size":948}
+2025-05-29 02:05:21.245 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":7,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:21.253 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:21.253 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:21.254 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:21.457 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:21.458 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:05:21.572 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":114,"response_size":1536}
+2025-05-29 02:05:21.573 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":116,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:23.120 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:23.120 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:05:23.212 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:23.212 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:05:23.216 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":4,"response_size":948}
+2025-05-29 02:05:23.217 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":6,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:23.232 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":112,"response_size":1536}
+2025-05-29 02:05:23.233 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":113,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:23.257 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:23.258 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:23.258 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:23.273 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:23.273 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:05:23.384 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":110,"response_size":1536}
+2025-05-29 02:05:23.385 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":112,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:23.585 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:23.585 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:05:23.591 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":6,"response_size":948}
+2025-05-29 02:05:23.591 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":6,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:25.222 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:25.223 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:25.223 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:25.237 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:25.237 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:05:25.243 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":5,"response_size":948}
+2025-05-29 02:05:25.243 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":6,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:25.268 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:25.268 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:05:25.380 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":112,"response_size":1536}
+2025-05-29 02:05:25.381 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":114,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:25.391 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:25.391 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:05:25.397 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":5,"response_size":948}
+2025-05-29 02:05:25.398 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":7,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:25.609 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:25.609 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:25.610 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:27.232 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:27.232 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:05:27.247 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:27.248 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:27.248 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:27.346 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":113,"response_size":1536}
+2025-05-29 02:05:27.347 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":115,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:27.384 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:27.385 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to POKE_API {"service":"POKE_API","target_url":"http://poke-api:3004/api/pokemon/charizard","method":"GET","original_url":"/api/pokemon/charizard"}
+2025-05-29 02:05:27.390 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for POKE_API {"service":"POKE_API","status_code":200,"latency":5,"response_size":948}
+2025-05-29 02:05:27.391 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":7,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:27.416 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:27.416 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:27.416 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:27.619 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /poke/search?pokemon_name=pikachu {"method":"GET","url":"/poke/search?pokemon_name=pikachu","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:27.619 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxying request to SEARCH_API {"service":"SEARCH_API","target_url":"http://search-api:3001/poke/search?pokemon_name=pikachu","method":"GET","original_url":"/poke/search?pokemon_name=pikachu"}
+2025-05-29 02:05:27.735 [GATEWAY] INFO: [GATEWAY][PROXY_REQUEST] Proxy request completed for SEARCH_API {"service":"SEARCH_API","status_code":200,"latency":115,"response_size":1536}
+2025-05-29 02:05:27.735 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /poke/search?pokemon_name=pikachu - 200 {"method":"GET","url":"/poke/search?pokemon_name=pikachu","statusCode":200,"latency":116,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.1"}
+2025-05-29 02:05:28.727 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:05:28.728 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:28.728 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:05:58.810 [GATEWAY] INFO: [GATEWAY][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:05:58.811 [GATEWAY] INFO: [GATEWAY][HEALTH_CHECK] Gateway health check requested 
+2025-05-29 02:05:58.811 [GATEWAY] INFO: [GATEWAY][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:06:02.812 [GATEWAY] INFO: [GATEWAY][SHUTDOWN] Received SIGTERM, shutting down gracefully 

@@ -1,0 +1,169 @@
+version: '3.8'
+
+services:
+  # Gateway Principal
+  gateway:
+    build: .
+    container_name: pokemon-gateway
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - SEARCH_API_URL=http://search-api:3001
+      - POKE_API_URL=http://poke-api:3004
+      - STATS_API_URL=http://stats-api:3002
+      - IMAGES_API_URL=http://images-api:3003
+    volumes:
+      - ./logs:/app/logs
+    depends_on:
+      - search-api
+      - poke-api
+      - stats-api
+      - images-api
+    networks:
+      - pokemon-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Microservicio de Búsqueda
+  search-api:
+    build: .
+    container_name: pokemon-search-api
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+      - SEARCH_PORT=3001
+      - POKE_API_URL=http://poke-api:3004
+      - STATS_API_URL=http://stats-api:3002
+      - IMAGES_API_URL=http://images-api:3003
+    volumes:
+      - ./logs:/app/logs
+    command: ["node", "services/search-api.js"]
+    depends_on:
+      - poke-api
+      - stats-api
+      - images-api
+    networks:
+      - pokemon-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3001/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Microservicio Pokemon API
+  poke-api:
+    build: .
+    container_name: pokemon-poke-api
+    ports:
+      - "3004:3004"
+    environment:
+      - NODE_ENV=production
+      - POKE_API_PORT=3004
+    volumes:
+      - ./logs:/app/logs
+    command: ["node", "services/poke-api.js"]
+    networks:
+      - pokemon-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3004/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Microservicio de Estadísticas
+  stats-api:
+    build: .
+    container_name: pokemon-stats-api
+    ports:
+      - "3002:3002"
+    environment:
+      - NODE_ENV=production
+      - STATS_API_PORT=3002
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+    command: ["node", "services/stats-api.js"]
+    networks:
+      - pokemon-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3002/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Microservicio de Imágenes
+  images-api:
+    build: .
+    container_name: pokemon-images-api
+    ports:
+      - "3003:3003"
+    environment:
+      - NODE_ENV=production
+      - IMAGES_API_PORT=3003
+    volumes:
+      - ./logs:/app/logs
+      - ./images:/app/images
+    command: ["node", "services/images-api.js"]
+    networks:
+      - pokemon-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3003/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Base de datos Redis para cache (opcional)
+  redis:
+    image: redis:7-alpine
+    container_name: pokemon-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    networks:
+      - pokemon-network
+    restart: unless-stopped
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Nginx Load Balancer (opcional)
+  # nginx:
+  #   image: nginx:alpine
+  #   container_name: pokemon-nginx
+  #   ports:
+  #     - "80:80"
+  #     - "443:443"
+  #   volumes:
+  #     - ./nginx.conf:/etc/nginx/nginx.conf:ro
+  #     - ./logs/nginx:/var/log/nginx
+  #   depends_on:
+  #     - gateway
+  #   networks:
+  #     - pokemon-network
+  #   restart: unless-stopped
+
+volumes:
+  redis-data:
+    driver: local
+
+networks:
+  pokemon-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16

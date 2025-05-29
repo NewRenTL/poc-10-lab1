@@ -1,0 +1,858 @@
+2025-05-29 01:32:14.124 [POKE_API] INFO: [POKE_API][SERVER_START] Pokemon API server running on port 3004 
+2025-05-29 01:32:18.788 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:32:18.790 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:32:18.792 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":4,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:32:48.869 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:32:48.870 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:32:48.871 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":2,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:33:18.950 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:33:18.950 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:33:18.951 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:33:49.028 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:33:49.029 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:33:49.030 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":2,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:37:49.113 [POKE_API] INFO: [POKE_API][SERVER_START] Pokemon API server running on port 3004 
+2025-05-29 01:37:53.783 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:37:53.784 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:37:53.786 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":3,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:38:23.867 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:38:23.868 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:38:23.869 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":2,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:38:53.937 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:38:53.938 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:38:53.938 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:39:24.004 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:39:24.005 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:39:24.005 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:39:54.066 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:39:54.067 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:39:54.067 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:40:11.603 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.7"}
+2025-05-29 01:40:11.604 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:40:11.605 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":2,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.7"}
+2025-05-29 01:40:20.527 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:40:20.528 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 01:40:20.529 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 01:40:20.529 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 01:40:22.429 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":1901,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 01:40:22.430 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 01:40:22.430 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":1903,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:40:24.150 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:40:24.150 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:40:24.151 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:40:42.943 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"curl/8.9.1","ip":"::ffff:172.20.0.7"}
+2025-05-29 01:40:42.943 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 01:40:42.944 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 01:40:42.944 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/charizard 
+2025-05-29 01:40:43.267 [POKE_API] INFO: [POKE_API][GET_POKEMON] Data cached for: charizard 
+2025-05-29 01:40:43.267 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 324ms {"latency":324,"startTime":1748482842943,"endTime":1748482843267,"pokemon":"charizard"}
+2025-05-29 01:40:43.268 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 01:40:43.269 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":326,"userAgent":"curl/8.9.1","ip":"::ffff:172.20.0.7"}
+2025-05-29 01:40:54.217 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:40:54.217 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:40:54.218 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:41:24.284 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:41:24.284 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:41:24.285 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:41:47.749 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:41:47.750 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 01:41:47.750 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 01:41:47.751 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 01:41:48.170 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":420,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 01:41:48.170 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 01:41:48.171 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":422,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:41:54.346 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:41:54.347 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:41:54.347 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:42:04.761 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard,charizard {"method":"GET","url":"/api/pokemon/charizard,charizard","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:42:04.761 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 01:42:04.762 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard,charizard 
+2025-05-29 01:42:04.762 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/charizard,charizard 
+2025-05-29 01:42:06.758 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":1997,"pokemon":"charizard,charizard","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 01:42:06.758 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: charizard,charizard 
+2025-05-29 01:42:06.759 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard,charizard - 404 {"method":"GET","url":"/api/pokemon/charizard,charizard","statusCode":404,"latency":1998,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:42:24.411 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:42:24.411 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:42:24.411 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:42:54.493 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:42:54.493 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:42:54.493 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:43:24.583 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:43:24.584 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:43:24.584 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:43:54.664 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:43:54.664 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:43:54.664 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:44:24.729 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:44:24.729 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:44:24.730 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:44:54.781 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:44:54.782 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:44:54.782 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:45:24.855 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:45:24.856 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:45:24.856 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:45:49.170 [POKE_API] INFO: [POKE_API][CACHE_CLEANUP] Cleaned expired cache entries {"entries_cleaned":1,"remaining_entries":0}
+2025-05-29 01:45:54.939 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:45:54.940 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:45:54.940 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:46:25.022 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:46:25.023 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:46:25.023 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:46:55.125 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:46:55.125 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:46:55.126 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:47:25.191 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:47:25.192 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:47:25.192 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:47:55.274 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:47:55.275 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:47:55.275 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:48:25.354 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:48:25.355 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:48:25.355 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:48:55.433 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:48:55.433 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:48:55.433 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:49:25.488 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:49:25.488 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:49:25.489 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:49:55.567 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:49:55.568 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:49:55.568 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:50:25.635 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:50:25.635 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:50:25.635 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:50:55.705 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:50:55.706 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:50:55.706 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:51:25.772 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:51:25.772 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:51:25.773 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:51:55.848 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:51:55.849 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:51:55.849 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:52:25.933 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:52:25.934 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:52:25.934 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:52:55.992 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:52:55.993 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:52:55.993 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:53:26.058 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:53:26.058 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:53:26.059 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:53:56.135 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:53:56.136 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:53:56.136 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:54:26.206 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:54:26.206 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:54:26.207 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":2,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:54:56.281 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:54:56.281 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:54:56.282 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:55:26.360 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:55:26.361 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:55:26.362 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":2,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:55:47.689 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:55:47.690 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 01:55:47.690 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 01:55:47.690 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 01:55:48.031 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":340,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 01:55:48.031 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 01:55:48.031 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":342,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:55:49.256 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:55:49.258 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 01:55:49.259 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 01:55:49.259 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 01:55:49.364 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":106,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 01:55:49.365 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 01:55:49.365 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":109,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:55:50.544 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 01:55:50.545 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 01:55:50.545 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 01:55:50.545 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/charizard 
+2025-05-29 01:55:50.659 [POKE_API] INFO: [POKE_API][GET_POKEMON] Data cached for: charizard 
+2025-05-29 01:55:50.659 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 114ms {"latency":114,"startTime":1748483750545,"endTime":1748483750659,"pokemon":"charizard"}
+2025-05-29 01:55:50.660 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 01:55:50.660 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":116,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 01:55:50.903 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:55:50.904 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 01:55:50.904 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 01:55:50.904 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 01:55:51.008 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":105,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 01:55:51.009 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 01:55:51.010 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":107,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:55:51.380 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 01:55:51.380 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 01:55:51.380 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 01:55:51.380 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 01:55:51.381 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748483751380,"endTime":1748483751381,"pokemon":"charizard"}
+2025-05-29 01:55:51.381 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 01:55:51.382 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":3,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 01:55:53.030 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 01:55:53.030 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 01:55:53.031 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 01:55:53.031 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 01:55:53.031 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748483753030,"endTime":1748483753031,"pokemon":"charizard"}
+2025-05-29 01:55:53.032 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 01:55:53.032 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 01:55:54.693 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:55:54.693 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 01:55:54.694 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 01:55:54.694 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 01:55:54.802 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":109,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 01:55:54.803 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 01:55:54.803 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":110,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:55:55.411 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:55:55.412 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 01:55:55.412 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 01:55:55.413 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 01:55:55.522 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":110,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 01:55:55.522 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 01:55:55.522 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":111,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:55:56.447 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:55:56.448 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:55:56.448 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:55:56.827 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 01:55:56.827 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 01:55:56.828 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 01:55:56.828 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 01:55:56.828 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748483756827,"endTime":1748483756828,"pokemon":"charizard"}
+2025-05-29 01:55:56.828 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 01:55:56.829 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 01:55:57.066 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:55:57.066 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 01:55:57.066 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 01:55:57.067 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 01:55:57.173 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":107,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 01:55:57.173 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 01:55:57.174 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":109,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:55:57.548 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 01:55:57.548 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 01:55:57.548 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 01:55:57.549 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 01:55:57.549 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748483757548,"endTime":1748483757549,"pokemon":"charizard"}
+2025-05-29 01:55:57.549 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 01:55:57.550 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 01:55:59.197 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 01:55:59.197 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 01:55:59.198 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 01:55:59.198 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 01:55:59.198 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748483759197,"endTime":1748483759198,"pokemon":"charizard"}
+2025-05-29 01:55:59.199 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 01:55:59.199 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 01:56:00.861 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:56:00.861 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 01:56:00.862 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 01:56:00.862 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 01:56:00.966 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":105,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 01:56:00.967 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 01:56:00.968 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":107,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:56:01.568 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:56:01.568 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 01:56:01.569 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 01:56:01.569 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 01:56:01.669 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":101,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 01:56:01.670 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 01:56:01.671 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":103,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:56:02.993 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 01:56:02.994 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 01:56:02.994 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 01:56:02.994 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 01:56:02.994 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 0ms {"latency":0,"startTime":1748483762994,"endTime":1748483762994,"pokemon":"charizard"}
+2025-05-29 01:56:02.995 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 01:56:02.995 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 01:56:03.235 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:56:03.235 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 01:56:03.236 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 01:56:03.236 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 01:56:03.345 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":110,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 01:56:03.346 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 01:56:03.347 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":113,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 01:56:26.538 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:56:26.538 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:56:26.539 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:56:56.637 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:56:56.638 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:56:56.639 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":2,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:57:26.712 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:57:26.713 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:57:26.713 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:57:56.787 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:57:56.787 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:57:56.788 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:58:26.865 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:58:26.865 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:58:26.866 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:58:56.934 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:58:56.934 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:58:56.935 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:59:26.999 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:59:27.000 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:59:27.000 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:59:57.070 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 01:59:57.071 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 01:59:57.071 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:00:27.133 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:00:27.133 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 02:00:27.133 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:00:57.197 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:00:57.197 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 02:00:57.197 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:01:27.267 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:01:27.268 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 02:01:27.268 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:01:49.313 [POKE_API] INFO: [POKE_API][CACHE_CLEANUP] Cleaned expired cache entries {"entries_cleaned":1,"remaining_entries":0}
+2025-05-29 02:01:57.339 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:01:57.339 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 02:01:57.340 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:02:27.409 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:02:27.409 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 02:02:27.410 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:02:57.502 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:02:57.502 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 02:02:57.503 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:03:27.571 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:03:27.572 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 02:03:27.572 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:03:57.651 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:03:57.651 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 02:03:57.651 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:04:27.731 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:04:27.731 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 02:04:27.732 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:04:32.869 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:32.870 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:32.870 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:04:32.870 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:04:33.208 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":338,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:04:33.209 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:04:33.209 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":340,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:34.758 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:34.759 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:34.759 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:04:34.760 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:04:34.864 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":105,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:04:34.864 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:04:34.865 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":107,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:36.107 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:36.108 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:36.108 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:04:36.108 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/charizard 
+2025-05-29 02:04:36.218 [POKE_API] INFO: [POKE_API][GET_POKEMON] Data cached for: charizard 
+2025-05-29 02:04:36.219 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 110ms {"latency":110,"startTime":1748484276108,"endTime":1748484276218,"pokemon":"charizard"}
+2025-05-29 02:04:36.219 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:04:36.219 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":112,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:36.761 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:36.761 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:36.762 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:04:36.762 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:04:36.865 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":104,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:04:36.866 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:04:36.866 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":106,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:36.891 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:36.891 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:36.892 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:04:36.892 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:04:36.892 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484276891,"endTime":1748484276892,"pokemon":"charizard"}
+2025-05-29 02:04:36.893 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:04:36.894 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":3,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:38.751 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:38.752 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:38.752 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:04:38.753 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:04:38.855 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":103,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:04:38.856 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:04:38.856 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":105,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:38.885 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:38.886 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:38.886 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:04:38.886 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:04:38.887 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484278886,"endTime":1748484278887,"pokemon":"charizard"}
+2025-05-29 02:04:38.887 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:04:38.888 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":3,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:40.245 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:40.246 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:40.246 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:04:40.246 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:04:40.353 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":107,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:04:40.354 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:04:40.354 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":109,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:40.744 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:40.744 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:40.744 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:04:40.745 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:04:40.846 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":102,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:04:40.847 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:04:40.847 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":103,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:40.877 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:40.878 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:40.878 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:04:40.878 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:04:40.879 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 0ms {"latency":0,"startTime":1748484280878,"endTime":1748484280878,"pokemon":"charizard"}
+2025-05-29 02:04:40.879 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:04:40.880 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":3,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:40.915 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:40.915 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:40.916 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:04:40.916 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:04:41.020 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":105,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:04:41.021 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:04:41.021 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":106,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:42.367 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:42.367 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:42.368 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:04:42.368 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:04:42.368 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484282367,"endTime":1748484282368,"pokemon":"charizard"}
+2025-05-29 02:04:42.369 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:04:42.370 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":3,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:42.865 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:42.866 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:42.866 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:04:42.866 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:04:42.867 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484282866,"endTime":1748484282867,"pokemon":"charizard"}
+2025-05-29 02:04:42.868 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:04:42.868 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":3,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:42.933 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:42.933 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:42.934 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:04:42.934 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:04:43.038 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:43.038 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:43.039 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:04:43.039 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:04:43.039 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484283038,"endTime":1748484283039,"pokemon":"charizard"}
+2025-05-29 02:04:43.040 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:04:43.040 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:43.043 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":110,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:04:43.044 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:04:43.044 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":112,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:44.910 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:44.911 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:44.911 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:04:44.911 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:04:45.014 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":103,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:04:45.016 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:04:45.016 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":106,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:45.061 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:45.062 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:45.062 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:04:45.062 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:04:45.063 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 0ms {"latency":0,"startTime":1748484285062,"endTime":1748484285062,"pokemon":"charizard"}
+2025-05-29 02:04:45.063 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:04:45.063 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:46.411 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:46.411 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:46.412 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:04:46.412 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:04:46.519 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":108,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:04:46.519 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:04:46.520 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":109,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:46.904 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:46.905 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:46.905 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:04:46.905 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:04:47.007 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":102,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:04:47.008 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:04:47.008 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":104,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:47.041 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:47.041 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:47.042 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:04:47.042 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:04:47.042 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484287041,"endTime":1748484287042,"pokemon":"charizard"}
+2025-05-29 02:04:47.043 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:04:47.043 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:47.077 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:47.077 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:47.078 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:04:47.081 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:04:47.184 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":107,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:04:47.184 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:04:47.185 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":108,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:48.538 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:48.538 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:48.538 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:04:48.538 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:04:48.539 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484288538,"endTime":1748484288539,"pokemon":"charizard"}
+2025-05-29 02:04:48.539 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:04:48.540 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":3,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:49.022 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:49.022 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:49.022 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:04:49.023 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:04:49.023 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484289022,"endTime":1748484289023,"pokemon":"charizard"}
+2025-05-29 02:04:49.023 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:04:49.024 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:49.087 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:49.087 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:49.088 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:04:49.088 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:04:49.188 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":101,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:04:49.189 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:04:49.189 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":102,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:49.207 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:49.208 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:49.208 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:04:49.208 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:04:49.208 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 0ms {"latency":0,"startTime":1748484289208,"endTime":1748484289208,"pokemon":"charizard"}
+2025-05-29 02:04:49.209 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:04:49.210 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":3,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:51.081 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:51.081 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:51.082 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:04:51.082 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:04:51.188 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":107,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:04:51.189 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:04:51.190 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":109,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:51.216 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:51.216 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:51.217 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:04:51.217 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:04:51.217 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484291216,"endTime":1748484291217,"pokemon":"charizard"}
+2025-05-29 02:04:51.218 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:04:51.218 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:52.565 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:52.565 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:52.566 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:04:52.566 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:04:52.680 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":115,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:04:52.680 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:04:52.680 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":115,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:53.061 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:53.061 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:53.061 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:04:53.062 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:04:53.162 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":101,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:04:53.163 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:04:53.164 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":103,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:53.209 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:53.209 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:53.209 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:04:53.209 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:04:53.210 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484293209,"endTime":1748484293210,"pokemon":"charizard"}
+2025-05-29 02:04:53.210 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:04:53.211 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":3,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:53.245 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:53.245 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:53.246 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:04:53.246 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:04:53.350 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":105,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:04:53.351 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:04:53.351 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":106,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:54.701 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:54.702 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:54.702 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:04:54.702 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:04:54.702 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 0ms {"latency":0,"startTime":1748484294702,"endTime":1748484294702,"pokemon":"charizard"}
+2025-05-29 02:04:54.703 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:04:54.703 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:55.187 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:55.187 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:55.187 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:04:55.187 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:04:55.188 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484295187,"endTime":1748484295188,"pokemon":"charizard"}
+2025-05-29 02:04:55.188 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:04:55.188 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:55.252 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:55.252 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:55.252 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:04:55.253 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:04:55.356 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":104,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:04:55.356 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:04:55.357 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":106,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:55.372 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:55.373 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:55.373 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:04:55.373 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:04:55.373 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484295372,"endTime":1748484295373,"pokemon":"charizard"}
+2025-05-29 02:04:55.374 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:04:55.375 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":3,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:57.243 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:57.243 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:57.244 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:04:57.244 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:04:57.350 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":107,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:04:57.350 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:04:57.351 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":108,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:04:57.377 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:57.377 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:04:57.377 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:04:57.378 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:04:57.378 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484297377,"endTime":1748484297378,"pokemon":"charizard"}
+2025-05-29 02:04:57.379 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:04:57.380 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":3,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:04:57.797 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:04:57.797 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 02:04:57.797 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:05:02.805 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:02.806 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:02.806 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:05:02.807 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:05:03.096 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":290,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:05:03.096 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:05:03.097 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":292,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:04.798 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:04.798 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:04.798 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:05:04.799 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:05:04.903 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":105,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:05:04.904 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:05:04.904 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":106,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:05.118 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:05.119 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:05.119 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:05:05.119 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:05:05.119 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 0ms {"latency":0,"startTime":1748484305119,"endTime":1748484305119,"pokemon":"charizard"}
+2025-05-29 02:05:05.120 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:05:05.120 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:06.796 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:06.796 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:06.797 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:05:06.797 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:05:06.901 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":105,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:05:06.901 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:05:06.901 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":105,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:06.926 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:06.927 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:06.927 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:05:06.927 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:05:06.927 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 0ms {"latency":0,"startTime":1748484306927,"endTime":1748484306927,"pokemon":"charizard"}
+2025-05-29 02:05:06.928 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:05:06.928 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:08.787 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:08.788 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:08.788 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:05:08.788 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:05:08.891 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":103,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:05:08.892 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:05:08.892 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":105,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:08.921 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:08.921 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:08.921 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:05:08.922 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:05:08.922 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484308921,"endTime":1748484308922,"pokemon":"charizard"}
+2025-05-29 02:05:08.923 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:05:08.923 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:09.143 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:09.143 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:09.143 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:05:09.144 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:05:09.245 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":102,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:05:09.245 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:05:09.246 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":103,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:10.794 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:10.794 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:10.794 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:05:10.795 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:05:10.895 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":101,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:05:10.896 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:05:10.896 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":102,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:10.913 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:10.913 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:10.913 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:05:10.913 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:05:10.913 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 0ms {"latency":0,"startTime":1748484310913,"endTime":1748484310913,"pokemon":"charizard"}
+2025-05-29 02:05:10.914 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:05:10.914 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:10.951 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:10.952 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:10.952 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:05:10.952 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:05:11.054 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":102,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:05:11.054 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:05:11.054 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":103,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:11.270 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:11.271 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:11.271 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:05:11.271 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:05:11.271 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 0ms {"latency":0,"startTime":1748484311271,"endTime":1748484311271,"pokemon":"charizard"}
+2025-05-29 02:05:11.272 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:05:11.272 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:12.920 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:12.920 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:12.921 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:05:12.921 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:05:12.921 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484312920,"endTime":1748484312921,"pokemon":"charizard"}
+2025-05-29 02:05:12.921 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:05:12.922 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:12.955 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:12.955 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:12.955 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:05:12.956 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:05:13.064 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":109,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:05:13.065 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:05:13.065 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":110,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:13.075 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:13.075 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:13.075 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:05:13.075 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:05:13.075 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 0ms {"latency":0,"startTime":1748484313075,"endTime":1748484313075,"pokemon":"charizard"}
+2025-05-29 02:05:13.076 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:05:13.076 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:14.944 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:14.944 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:14.944 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:05:14.945 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:05:15.046 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":102,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:05:15.046 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:05:15.047 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":104,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:15.078 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:15.079 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:15.079 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:05:15.080 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:05:15.080 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484315079,"endTime":1748484315080,"pokemon":"charizard"}
+2025-05-29 02:05:15.081 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:05:15.081 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":3,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:15.315 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:15.315 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:15.316 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:05:15.316 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:05:15.416 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":101,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:05:15.417 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:05:15.417 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":102,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:16.961 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:16.962 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:16.962 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:05:16.963 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:05:17.065 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:17.065 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:17.066 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:05:17.066 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:05:17.066 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484317065,"endTime":1748484317066,"pokemon":"charizard"}
+2025-05-29 02:05:17.067 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:05:17.067 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:17.071 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":108,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:05:17.071 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:05:17.072 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":111,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:17.117 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:17.117 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:17.118 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:05:17.118 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:05:17.218 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":101,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:05:17.218 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:05:17.219 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":102,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:17.438 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:17.438 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:17.438 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:05:17.439 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:05:17.439 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484317438,"endTime":1748484317439,"pokemon":"charizard"}
+2025-05-29 02:05:17.439 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:05:17.439 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:19.098 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:19.098 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:19.098 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:05:19.099 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:05:19.099 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484319098,"endTime":1748484319099,"pokemon":"charizard"}
+2025-05-29 02:05:19.099 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:05:19.100 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:19.118 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:19.118 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:19.119 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:05:19.119 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:05:19.221 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":103,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:05:19.221 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:05:19.222 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":104,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:19.237 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:19.237 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:19.238 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:05:19.238 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:05:19.239 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 2ms {"latency":2,"startTime":1748484319237,"endTime":1748484319239,"pokemon":"charizard"}
+2025-05-29 02:05:19.239 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:05:19.240 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":4,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:21.095 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:21.096 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:21.096 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:05:21.096 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:05:21.198 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":102,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:05:21.199 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:05:21.199 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":104,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:21.240 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:21.241 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:21.241 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:05:21.241 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:05:21.242 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484321241,"endTime":1748484321242,"pokemon":"charizard"}
+2025-05-29 02:05:21.242 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:05:21.243 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":3,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:21.464 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:21.464 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:21.465 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:05:21.465 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:05:21.565 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":101,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:05:21.566 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:05:21.566 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":102,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:23.126 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:23.127 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:23.127 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:05:23.127 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:05:23.214 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:23.214 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:23.214 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:05:23.214 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:05:23.214 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 0ms {"latency":0,"startTime":1748484323214,"endTime":1748484323214,"pokemon":"charizard"}
+2025-05-29 02:05:23.215 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:05:23.215 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":1,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:23.228 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":101,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:05:23.228 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:05:23.228 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":102,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:23.279 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:23.280 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:23.280 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:05:23.280 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:05:23.379 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":99,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:05:23.380 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:05:23.380 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":101,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:23.587 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:23.588 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:23.588 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:05:23.588 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:05:23.588 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 0ms {"latency":0,"startTime":1748484323588,"endTime":1748484323588,"pokemon":"charizard"}
+2025-05-29 02:05:23.589 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:05:23.589 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:25.239 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:25.239 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:25.240 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:05:25.240 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:05:25.240 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484325239,"endTime":1748484325240,"pokemon":"charizard"}
+2025-05-29 02:05:25.240 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:05:25.241 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:25.274 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:25.274 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:25.275 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:05:25.275 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:05:25.376 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":102,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:05:25.376 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:05:25.377 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":102,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:25.394 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:25.394 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:25.394 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:05:25.394 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:05:25.395 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484325394,"endTime":1748484325395,"pokemon":"charizard"}
+2025-05-29 02:05:25.395 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:05:25.396 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":2,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:27.240 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:27.241 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:27.241 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:05:27.241 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:05:27.341 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":100,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:05:27.341 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:05:27.342 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":102,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:27.387 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/charizard {"method":"GET","url":"/api/pokemon/charizard","userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:27.387 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:27.387 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: charizard 
+2025-05-29 02:05:27.387 [POKE_API] INFO: [POKE_API][GET_POKEMON] Cache hit for: charizard 
+2025-05-29 02:05:27.388 [POKE_API] INFO: [POKE_API][GET_POKEMON] Latency: 1ms {"latency":1,"startTime":1748484327387,"endTime":1748484327388,"pokemon":"charizard"}
+2025-05-29 02:05:27.388 [POKE_API] INFO: [POKE_API][GET_POKEMON] Successfully fetched: charizard {"pokemon_id":6,"pokemon_name":"charizard"}
+2025-05-29 02:05:27.389 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/charizard - 200 {"method":"GET","url":"/api/pokemon/charizard","statusCode":200,"latency":3,"userAgent":"Apache-HttpClient/4.5.14 (Java/17.0.2)","ip":"::ffff:172.20.0.7"}
+2025-05-29 02:05:27.626 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /api/pokemon/pikachu,pikachu {"method":"GET","url":"/api/pokemon/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:27.627 [POKE_API] INFO: [POKE_API][GET_POKEMON] Execution started 
+2025-05-29 02:05:27.628 [POKE_API] INFO: [POKE_API][GET_POKEMON] Fetching Pokemon: pikachu,pikachu 
+2025-05-29 02:05:27.628 [POKE_API] INFO: [POKE_API][GET_POKEMON] Calling external API: https://pokeapi.co/api/v2/pokemon/pikachu,pikachu 
+2025-05-29 02:05:27.730 [POKE_API] ERROR: [POKE_API][GET_POKEMON] ERROR: Execution failed {"executionTime":103,"pokemon":"pikachu,pikachu","error":"Request failed with status code 404","stack":"AxiosError: Request failed with status code 404\n    at settle (/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at BrotliDecompress.handleStreamEnd (/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async measureExecutionTime.pokemon (/app/services/poke-api.js:60:34)\n    at async measureExecutionTime (/app/utils/logger.js:128:24)\n    at async /app/services/poke-api.js:40:24"}
+2025-05-29 02:05:27.730 [POKE_API] WARN: [POKE_API][GET_POKEMON] WARNING: Pokemon not found: pikachu,pikachu 
+2025-05-29 02:05:27.731 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /api/pokemon/pikachu,pikachu - 404 {"method":"GET","url":"/api/pokemon/pikachu,pikachu","statusCode":404,"latency":105,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-29 02:05:27.872 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:05:27.872 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 02:05:27.872 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":0,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:05:57.963 [POKE_API] INFO: [POKE_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-29 02:05:57.963 [POKE_API] INFO: [POKE_API][HEALTH_CHECK] Health check requested 
+2025-05-29 02:05:57.964 [POKE_API] INFO: [POKE_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
