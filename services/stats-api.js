@@ -11,23 +11,19 @@ const app = express();
 const PORT = process.env.STATS_API_PORT || 3002;
 const logger = new StandardLogger('STATS_API');
 
-// Crear directorio de logs si no existe
 const logsDir = path.join(__dirname, '../logs');
 if (!fs.existsSync(logsDir)) {
     fs.mkdirSync(logsDir, { recursive: true });
 }
 
-// Middleware
 app.use(helmet());
 app.use(cors());
 app.use(express.json());
 app.use(latencyMiddleware(logger, 'STATS_API'));
 
-// Simulación de base de datos en memoria para stats
 let pokemonStatsDB = new Map();
 let isDataLoaded = false;
 
-// Datos de ejemplo para demostración (normalmente vendría de Kaggle dataset)
 const samplePokemonStats = [
     { name: 'pikachu', total: 320, hp: 35, attack: 55, defense: 40, sp_attack: 50, sp_defense: 50, speed: 90, generation: 1, legendary: false },
     { name: 'charizard', total: 534, hp: 78, attack: 84, defense: 78, sp_attack: 109, sp_defense: 85, speed: 100, generation: 1, legendary: false },
@@ -37,7 +33,6 @@ const samplePokemonStats = [
     { name: 'mew', total: 600, hp: 100, attack: 100, defense: 100, sp_attack: 100, sp_defense: 100, speed: 100, generation: 1, legendary: true }
 ];
 
-// Función para inicializar datos de ejemplo
 async function initializeStatsData() {
     return await measureExecutionTime(
         logger,
@@ -46,7 +41,7 @@ async function initializeStatsData() {
         async () => {
             logger.logApiCall('STATS_API', 'INITIALIZE_DATA', 'Loading Pokemon stats data');
 
-            // En un entorno real, aquí cargarías el CSV de Kaggle
+            // ESTE SERIA EL CSV DE KAGGLE
             // const csvPath = path.join(__dirname, '../data/pokemon.csv');
             
             // Por ahora usamos datos de ejemplo
@@ -65,7 +60,6 @@ async function initializeStatsData() {
     );
 }
 
-// Endpoint para obtener estadísticas de un Pokemon específico
 app.get('/api/stats/:pokemonName', async (req, res) => {
     const functionName = 'GET_POKEMON_STATS';
     const { pokemonName } = req.params;
@@ -83,7 +77,6 @@ app.get('/api/stats/:pokemonName', async (req, res) => {
             async () => {
                 logger.logApiCall('STATS_API', functionName, `Fetching stats for: ${pokemonName}`);
 
-                // Asegurar que los datos estén cargados
                 if (!isDataLoaded) {
                     await initializeStatsData();
                 }
@@ -92,7 +85,6 @@ app.get('/api/stats/:pokemonName', async (req, res) => {
                 const stats = pokemonStatsDB.get(pokemonKey);
 
                 if (!stats) {
-                    // Si no tenemos datos locales, generar stats ficticias
                     logger.logApiWarning('STATS_API', functionName, `No local stats found for: ${pokemonName}, generating mock data`);
                     
                     const mockStats = generateMockStats(pokemonName);
@@ -125,7 +117,6 @@ app.get('/api/stats/:pokemonName', async (req, res) => {
     }
 });
 
-// Función para generar estadísticas mockeadas
 function generateMockStats(pokemonName) {
     const baseStats = {
         hp: Math.floor(Math.random() * 100) + 20,
@@ -143,13 +134,12 @@ function generateMockStats(pokemonName) {
         total: total,
         ...baseStats,
         generation: Math.floor(Math.random() * 8) + 1,
-        legendary: Math.random() > 0.95, // 5% chance de ser legendario
-        type1: 'normal', // En un caso real, esto vendría de otra fuente
+        legendary: Math.random() > 0.95, 
+        type1: 'normal', 
         type2: null
     };
 }
 
-// Endpoint para obtener estadísticas de múltiples Pokemon
 app.get('/api/stats', async (req, res) => {
     const functionName = 'GET_ALL_STATS';
     const { limit = 50, offset = 0, generation, legendary } = req.query;
@@ -170,7 +160,6 @@ app.get('/api/stats', async (req, res) => {
 
                 let pokemonList = Array.from(pokemonStatsDB.values());
 
-                // Filtros
                 if (generation) {
                     pokemonList = pokemonList.filter(p => p.generation == generation);
                 }
@@ -180,7 +169,6 @@ app.get('/api/stats', async (req, res) => {
                     pokemonList = pokemonList.filter(p => p.legendary === isLegendary);
                 }
 
-                // Paginación
                 const startIndex = parseInt(offset);
                 const endIndex = startIndex + parseInt(limit);
                 const paginatedList = pokemonList.slice(startIndex, endIndex);
@@ -211,7 +199,6 @@ app.get('/api/stats', async (req, res) => {
     }
 });
 
-// Endpoint para análisis estadístico
 app.get('/api/stats/analysis/:pokemonName', async (req, res) => {
     const functionName = 'ANALYZE_POKEMON_STATS';
     const { pokemonName } = req.params;
@@ -235,7 +222,6 @@ app.get('/api/stats/analysis/:pokemonName', async (req, res) => {
                     throw new Error(`Pokemon ${pokemonName} not found`);
                 }
 
-                // Calcular análisis estadístico
                 const allPokemon = Array.from(pokemonStatsDB.values());
                 const analysis = {
                     pokemon: pokemon,
@@ -289,7 +275,6 @@ app.get('/api/stats/analysis/:pokemonName', async (req, res) => {
     }
 });
 
-// Funciones auxiliares para análisis
 function calculateRanking(allPokemon, stat, value) {
     const sortedValues = allPokemon.map(p => p[stat]).sort((a, b) => b - a);
     return sortedValues.indexOf(value) + 1;
@@ -331,7 +316,6 @@ function identifyWeaknesses(pokemon) {
     return weaknesses.sort((a, b) => a.value - b.value);
 }
 
-// Endpoint para cargar datos desde CSV (para cuando tengas el dataset de Kaggle)
 app.post('/api/stats/load-csv', async (req, res) => {
     const functionName = 'LOAD_CSV_DATA';
     
@@ -343,7 +327,6 @@ app.post('/api/stats/load-csv', async (req, res) => {
             async () => {
                 logger.logApiCall('STATS_API', functionName, 'Loading CSV data');
 
-                // Aquí implementarías la carga del CSV real
                 // const csvPath = path.join(__dirname, '../data/pokemon.csv');
                 // return await loadCsvData(csvPath);
                 
@@ -373,7 +356,6 @@ app.post('/api/stats/load-csv', async (req, res) => {
     }
 });
 
-// Health check
 app.get('/health', (req, res) => {
     logger.logApiCall('STATS_API', 'HEALTH_CHECK', 'Health check requested');
     res.json({ 
@@ -385,13 +367,11 @@ app.get('/health', (req, res) => {
     });
 });
 
-// Error handling middleware
 app.use((error, req, res, next) => {
     logger.logApiError('STATS_API', 'MIDDLEWARE_ERROR', 'Unhandled error', error);
     res.status(500).json({ error: 'Internal server error' });
 });
 
-// Inicializar datos al arrancar el servidor
 initializeStatsData().catch(error => {
     logger.logApiError('STATS_API', 'SERVER_INIT', 'Failed to initialize data', error);
 });

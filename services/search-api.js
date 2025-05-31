@@ -10,13 +10,11 @@ const app = express();
 const PORT = process.env.SEARCH_PORT || 3001;
 const logger = new StandardLogger('SEARCH_API');
 
-// Crear directorio de logs si no existe
 const logsDir = path.join(__dirname, '../logs');
 if (!fs.existsSync(logsDir)) {
     fs.mkdirSync(logsDir, { recursive: true });
 }
 
-// Middleware
 app.use(helmet());
 app.use(cors());
 app.use(express.json());
@@ -26,7 +24,6 @@ const POKE_API_URL = process.env.POKE_API_URL || 'http://localhost:3004';
 const STATS_API_URL = process.env.STATS_API_URL || 'http://localhost:3002';
 const IMAGES_API_URL = process.env.IMAGES_API_URL || 'http://localhost:3003';
 
-// Endpoint principal de búsqueda
 app.get('/poke/search', async (req, res) => {
     const functionName = 'POKEMON_SEARCH';
     const { pokemon_name } = req.query;
@@ -44,7 +41,6 @@ app.get('/poke/search', async (req, res) => {
             async () => {
                 logger.logApiCall('SEARCH_API', functionName, `Searching for pokemon: ${pokemon_name}`);
 
-                // Llamadas paralelas a los microservicios
                 const promises = [
                     fetchPokemonData(pokemon_name),
                     fetchPokemonStats(pokemon_name),
@@ -53,7 +49,6 @@ app.get('/poke/search', async (req, res) => {
 
                 const [pokeData, statsData, imageData] = await Promise.allSettled(promises);
 
-                // Procesar resultados
                 const response = {
                     name: pokemon_name,
                     status: {},
@@ -104,7 +99,6 @@ app.get('/poke/search', async (req, res) => {
     }
 });
 
-// Función para obtener datos del Pokemon API
 async function fetchPokemonData(pokemonName) {
     return await measureExecutionTime(
         logger,
@@ -120,7 +114,6 @@ async function fetchPokemonData(pokemonName) {
     );
 }
 
-// Función para obtener estadísticas
 async function fetchPokemonStats(pokemonName) {
     return await measureExecutionTime(
         logger,
@@ -136,7 +129,6 @@ async function fetchPokemonStats(pokemonName) {
     );
 }
 
-// Función para obtener imágenes
 async function fetchPokemonImage(pokemonName) {
     return await measureExecutionTime(
         logger,
@@ -152,7 +144,6 @@ async function fetchPokemonImage(pokemonName) {
     );
 }
 
-// Health check
 app.get('/health', (req, res) => {
     logger.logApiCall('SEARCH_API', 'HEALTH_CHECK', 'Health check requested');
     res.json({ 
@@ -162,7 +153,6 @@ app.get('/health', (req, res) => {
     });
 });
 
-// Error handling middleware
 app.use((error, req, res, next) => {
     logger.logApiError('SEARCH_API', 'MIDDLEWARE_ERROR', 'Unhandled error', error);
     res.status(500).json({ error: 'Internal server error' });

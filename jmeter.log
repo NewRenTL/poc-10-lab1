@@ -1,52 +1,60 @@
-2025-05-28 20:57:31,602 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2025-05-28 20:57:31,622 INFO o.a.j.JMeter: Loading user properties from: C:\Users\Sierpe\Documents\apache-jmeter-5.6.3\bin\user.properties
-2025-05-28 20:57:31,623 INFO o.a.j.JMeter: Loading system properties from: C:\Users\Sierpe\Documents\apache-jmeter-5.6.3\bin\system.properties
-2025-05-28 20:57:31,630 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
-2025-05-28 20:57:31,630 INFO o.a.j.JMeter: Version 5.6.3
-2025-05-28 20:57:31,631 INFO o.a.j.JMeter: java.version=17.0.2
-2025-05-28 20:57:31,631 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2025-05-28 20:57:31,631 INFO o.a.j.JMeter: os.name=Windows 10
-2025-05-28 20:57:31,631 INFO o.a.j.JMeter: os.arch=amd64
-2025-05-28 20:57:31,631 INFO o.a.j.JMeter: os.version=10.0
-2025-05-28 20:57:31,631 INFO o.a.j.JMeter: file.encoding=Cp1252
-2025-05-28 20:57:31,631 INFO o.a.j.JMeter: java.awt.headless=null
-2025-05-28 20:57:31,631 INFO o.a.j.JMeter: Max memory     =1073741824
-2025-05-28 20:57:31,631 INFO o.a.j.JMeter: Available Processors =12
-2025-05-28 20:57:31,639 INFO o.a.j.JMeter: Default Locale=English (EN)
-2025-05-28 20:57:31,640 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2025-05-28 20:57:31,640 INFO o.a.j.JMeter: JMeterHome=C:\Users\Sierpe\Documents\apache-jmeter-5.6.3
-2025-05-28 20:57:31,640 INFO o.a.j.JMeter: user.dir  =C:\Users\Sierpe\Documents\UTECClases\SoftwareArchitecture\Semana10\LAB1\poc-10-lab1
-2025-05-28 20:57:31,640 INFO o.a.j.JMeter: PWD       =C:\Users\Sierpe\Documents\UTECClases\SoftwareArchitecture\Semana10\LAB1\poc-10-lab1
-2025-05-28 20:57:31,641 INFO o.a.j.JMeter: IP: 192.168.18.8 Name: DESKTOP-CPVD876 FullName: DESKTOP-CPVD876
-2025-05-28 20:57:31,653 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2025-05-28 20:57:31,815 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
-2025-05-28 20:59:34,638 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-05-28 20:59:34,638 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-05-28 20:59:34,639 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-05-28 20:59:34,639 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-05-28 20:59:34,639 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2025-05-28 20:59:34,639 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2025-05-28 21:02:53,221 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2025-05-28 21:02:53,222 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
-2025-05-28 21:02:53,222 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2025-05-28 21:02:53,222 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2025-05-28 21:04:28,637 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2025-05-28 21:04:28,637 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2025-05-28 21:04:28,637 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2025-05-28 21:04:28,638 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2025-05-28 21:04:28,638 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2025-05-28 21:04:28,682 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient and queue capacity: 5000
-2025-05-28 21:04:28,683 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient
-2025-05-28 21:04:28,694 INFO o.a.j.v.b.g.TextGraphiteMetricsSender: Created TextGraphiteMetricsSender with host: , port: 2003, prefix: jmeter.
-2025-05-28 21:04:28,695 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2025-05-28 21:04:28,724 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Pokemon API Tests
-2025-05-28 21:04:28,724 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Pokemon API Tests.
-2025-05-28 21:04:28,724 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2025-05-28 21:04:28,724 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=10 delayedStart=false
-2025-05-28 21:04:28,728 INFO o.a.j.t.JMeterThread: Thread started: Pokemon API Tests 1-1
-2025-05-28 21:04:28,729 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2025-05-28 21:04:28,729 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2025-05-28 21:04:29,716 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:20,243 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-05-31 14:56:20,266 INFO o.a.j.JMeter: Loading user properties from: C:\Users\Sierpe\Documents\apache-jmeter-5.6.3\bin\user.properties
+2025-05-31 14:56:20,266 INFO o.a.j.JMeter: Loading system properties from: C:\Users\Sierpe\Documents\apache-jmeter-5.6.3\bin\system.properties
+2025-05-31 14:56:20,273 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-05-31 14:56:20,274 INFO o.a.j.JMeter: Version 5.6.3
+2025-05-31 14:56:20,274 INFO o.a.j.JMeter: java.version=17.0.2
+2025-05-31 14:56:20,274 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2025-05-31 14:56:20,274 INFO o.a.j.JMeter: os.name=Windows 10
+2025-05-31 14:56:20,274 INFO o.a.j.JMeter: os.arch=amd64
+2025-05-31 14:56:20,274 INFO o.a.j.JMeter: os.version=10.0
+2025-05-31 14:56:20,274 INFO o.a.j.JMeter: file.encoding=Cp1252
+2025-05-31 14:56:20,274 INFO o.a.j.JMeter: java.awt.headless=null
+2025-05-31 14:56:20,274 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-05-31 14:56:20,274 INFO o.a.j.JMeter: Available Processors =12
+2025-05-31 14:56:20,283 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-05-31 14:56:20,283 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-05-31 14:56:20,283 INFO o.a.j.JMeter: JMeterHome=C:\Users\Sierpe\Documents\apache-jmeter-5.6.3
+2025-05-31 14:56:20,283 INFO o.a.j.JMeter: user.dir  =C:\Users\Sierpe\Documents\UTECClases\SoftwareArchitecture\Semana10\LAB1\poc-10-lab1
+2025-05-31 14:56:20,284 INFO o.a.j.JMeter: PWD       =C:\Users\Sierpe\Documents\UTECClases\SoftwareArchitecture\Semana10\LAB1\poc-10-lab1
+2025-05-31 14:56:20,284 INFO o.a.j.JMeter: IP: 192.168.18.8 Name: DESKTOP-CPVD876 FullName: DESKTOP-CPVD876
+2025-05-31 14:56:20,298 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2025-05-31 14:56:20,472 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2025-05-31 14:56:29,820 INFO o.a.j.s.FileServer: Default base='C:\Users\Sierpe\Documents\UTECClases\SoftwareArchitecture\Semana10\LAB1\poc-10-lab1'
+2025-05-31 14:56:29,823 INFO o.a.j.g.a.Load: Loading file: C:\Users\Sierpe\Documents\UTECClases\SoftwareArchitecture\Semana10\LAB1\poc-10-lab1\Pokemon API Tests.jmx
+2025-05-31 14:56:29,823 INFO o.a.j.s.FileServer: Set new base='C:\Users\Sierpe\Documents\UTECClases\SoftwareArchitecture\Semana10\LAB1\poc-10-lab1'
+2025-05-31 14:56:29,965 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-05-31 14:56:29,987 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-05-31 14:56:29,990 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-05-31 14:56:29,992 INFO o.a.j.s.SaveService: Loading file: C:\Users\Sierpe\Documents\UTECClases\SoftwareArchitecture\Semana10\LAB1\poc-10-lab1\Pokemon API Tests.jmx
+2025-05-31 14:56:30,023 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-05-31 14:56:30,023 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-05-31 14:56:30,023 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-05-31 14:56:30,023 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-05-31 14:56:30,023 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-05-31 14:56:30,023 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-05-31 14:56:30,045 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-05-31 14:56:30,045 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-05-31 14:56:30,045 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-05-31 14:56:30,045 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-05-31 14:56:30,512 INFO o.a.j.s.FileServer: Set new base='C:\Users\Sierpe\Documents\UTECClases\SoftwareArchitecture\Semana10\LAB1\poc-10-lab1'
+2025-05-31 14:56:37,621 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-05-31 14:56:37,621 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-05-31 14:56:37,621 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-05-31 14:56:37,622 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-05-31 14:56:37,622 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-05-31 14:56:37,671 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient and queue capacity: 5000
+2025-05-31 14:56:37,672 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient
+2025-05-31 14:56:37,686 INFO o.a.j.v.b.g.TextGraphiteMetricsSender: Created TextGraphiteMetricsSender with host: , port: 2003, prefix: jmeter.
+2025-05-31 14:56:37,686 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2025-05-31 14:56:37,717 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Pokemon API Tests
+2025-05-31 14:56:37,717 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Pokemon API Tests.
+2025-05-31 14:56:37,718 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-05-31 14:56:37,718 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=10 delayedStart=false
+2025-05-31 14:56:37,724 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-05-31 14:56:37,725 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-05-31 14:56:37,726 INFO o.a.j.t.JMeterThread: Thread started: Pokemon API Tests 1-1
+2025-05-31 14:56:38,705 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -70,7 +78,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:30,710 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:39,698 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -94,10 +102,10 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:30,727 INFO o.a.j.t.JMeterThread: Thread started: Pokemon API Tests 1-2
-2025-05-28 21:04:30,753 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-CPVD876
-2025-05-28 21:04:30,759 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2025-05-28 21:04:31,716 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:39,720 INFO o.a.j.t.JMeterThread: Thread started: Pokemon API Tests 1-2
+2025-05-31 14:56:39,752 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-CPVD876
+2025-05-31 14:56:39,759 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-05-31 14:56:40,709 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -121,7 +129,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:32,711 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:41,690 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -145,8 +153,8 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:32,726 INFO o.a.j.t.JMeterThread: Thread started: Pokemon API Tests 1-3
-2025-05-28 21:04:33,713 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:41,722 INFO o.a.j.t.JMeterThread: Thread started: Pokemon API Tests 1-3
+2025-05-31 14:56:42,713 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -170,7 +178,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:34,709 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:43,705 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -194,8 +202,8 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:34,725 INFO o.a.j.t.JMeterThread: Thread started: Pokemon API Tests 1-4
-2025-05-28 21:04:35,719 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:43,724 INFO o.a.j.t.JMeterThread: Thread started: Pokemon API Tests 1-4
+2025-05-31 14:56:44,703 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -219,7 +227,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:36,714 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:45,700 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -243,8 +251,8 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:36,725 INFO o.a.j.t.JMeterThread: Thread started: Pokemon API Tests 1-5
-2025-05-28 21:04:37,715 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:45,724 INFO o.a.j.t.JMeterThread: Thread started: Pokemon API Tests 1-5
+2025-05-31 14:56:46,709 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -268,7 +276,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:38,711 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:47,706 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -292,7 +300,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:39,711 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:48,706 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -316,7 +324,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:40,720 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:49,692 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -340,12 +348,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:41,559 INFO o.a.j.s.FileServer: Default base='C:\Users\Sierpe\Documents\UTECClases\SoftwareArchitecture\Semana10\LAB1\poc-10-lab1'
-2025-05-28 21:04:41,560 INFO o.a.j.s.FileServer: Set new base='C:\Users\Sierpe\Documents\UTECClases\SoftwareArchitecture\Semana10\LAB1\poc-10-lab1'
-2025-05-28 21:04:41,682 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2025-05-28 21:04:41,698 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2025-05-28 21:04:41,700 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2025-05-28 21:04:41,711 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:50,717 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -369,7 +372,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:42,705 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:51,710 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -393,7 +396,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:43,701 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:52,708 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -417,7 +420,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:44,700 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:53,698 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -441,7 +444,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:45,707 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:54,709 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -465,7 +468,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:46,710 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:55,697 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -489,7 +492,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:47,697 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:56,700 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -513,7 +516,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:48,722 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:57,716 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -537,7 +540,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:49,708 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:58,691 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -561,7 +564,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:50,705 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:56:59,703 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -585,7 +588,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:51,701 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:57:00,715 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -609,7 +612,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:52,711 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:57:01,695 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -633,7 +636,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:53,720 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:57:02,700 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -657,7 +660,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:54,712 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:57:03,707 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -681,7 +684,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:55,725 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:57:04,691 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -705,7 +708,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:56,722 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:57:05,706 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -729,14 +732,14 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:56,725 INFO o.a.j.t.JMeterThread: Thread finished: Pokemon API Tests 1-1
-2025-05-28 21:04:57,208 INFO o.a.j.t.JMeterThread: Thread finished: Pokemon API Tests 1-5
-2025-05-28 21:04:57,358 INFO o.a.j.t.JMeterThread: Thread finished: Pokemon API Tests 1-4
-2025-05-28 21:04:57,382 INFO o.a.j.t.JMeterThread: Thread finished: Pokemon API Tests 1-3
-2025-05-28 21:04:57,391 INFO o.a.j.t.JMeterThread: Thread finished: Pokemon API Tests 1-2
-2025-05-28 21:04:57,392 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2025-05-28 21:04:57,403 INFO o.a.j.v.b.BackendListener: Worker ended
-2025-05-28 21:04:57,404 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:57:05,943 INFO o.a.j.t.JMeterThread: Thread finished: Pokemon API Tests 1-1
+2025-05-31 14:57:06,227 INFO o.a.j.t.JMeterThread: Thread finished: Pokemon API Tests 1-5
+2025-05-31 14:57:06,388 INFO o.a.j.t.JMeterThread: Thread finished: Pokemon API Tests 1-3
+2025-05-31 14:57:06,412 INFO o.a.j.t.JMeterThread: Thread finished: Pokemon API Tests 1-2
+2025-05-31 14:57:06,472 INFO o.a.j.t.JMeterThread: Thread finished: Pokemon API Tests 1-4
+2025-05-31 14:57:06,473 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-05-31 14:57:06,484 INFO o.a.j.v.b.BackendListener: Worker ended
+2025-05-31 14:57:06,486 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -763,21 +766,21 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:04:57,405 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2025-05-28 21:04:58,734 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2025-05-28 21:04:58,734 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2025-05-28 21:04:58,735 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient and queue capacity: 5000
-2025-05-28 21:04:58,735 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient
-2025-05-28 21:04:58,736 INFO o.a.j.v.b.g.TextGraphiteMetricsSender: Created TextGraphiteMetricsSender with host: , port: 2003, prefix: jmeter.
-2025-05-28 21:04:58,736 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2025-05-28 21:04:58,761 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Pokemon API Tests
-2025-05-28 21:04:58,761 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Pokemon API Tests.
-2025-05-28 21:04:58,761 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2025-05-28 21:04:58,761 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=10 delayedStart=false
-2025-05-28 21:04:58,763 INFO o.a.j.t.JMeterThread: Thread started: Pokemon API Tests 1-1
-2025-05-28 21:04:58,764 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2025-05-28 21:04:58,765 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2025-05-28 21:04:59,748 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:57:06,487 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2025-05-31 14:59:06,085 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-05-31 14:59:06,086 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-05-31 14:59:06,087 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient and queue capacity: 5000
+2025-05-31 14:59:06,088 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient
+2025-05-31 14:59:06,089 INFO o.a.j.v.b.g.TextGraphiteMetricsSender: Created TextGraphiteMetricsSender with host: , port: 2003, prefix: jmeter.
+2025-05-31 14:59:06,089 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2025-05-31 14:59:06,114 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Pokemon API Tests
+2025-05-31 14:59:06,114 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Pokemon API Tests.
+2025-05-31 14:59:06,114 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-05-31 14:59:06,114 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=10 delayedStart=false
+2025-05-31 14:59:06,116 INFO o.a.j.t.JMeterThread: Thread started: Pokemon API Tests 1-1
+2025-05-31 14:59:06,118 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-05-31 14:59:06,118 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-05-31 14:59:07,110 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -801,7 +804,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:00,758 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:08,091 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -825,8 +828,8 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:00,761 INFO o.a.j.t.JMeterThread: Thread started: Pokemon API Tests 1-2
-2025-05-28 21:05:01,744 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:08,116 INFO o.a.j.t.JMeterThread: Thread started: Pokemon API Tests 1-2
+2025-05-31 14:59:09,091 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -850,7 +853,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:02,756 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:10,103 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -874,8 +877,8 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:02,763 INFO o.a.j.t.JMeterThread: Thread started: Pokemon API Tests 1-3
-2025-05-28 21:05:03,758 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:10,117 INFO o.a.j.t.JMeterThread: Thread started: Pokemon API Tests 1-3
+2025-05-31 14:59:11,115 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -899,7 +902,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:04,755 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:12,111 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -923,8 +926,8 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:04,763 INFO o.a.j.t.JMeterThread: Thread started: Pokemon API Tests 1-4
-2025-05-28 21:05:05,754 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:12,127 INFO o.a.j.t.JMeterThread: Thread started: Pokemon API Tests 1-4
+2025-05-31 14:59:13,115 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -948,7 +951,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:06,749 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:14,105 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -972,8 +975,8 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:06,762 INFO o.a.j.t.JMeterThread: Thread started: Pokemon API Tests 1-5
-2025-05-28 21:05:07,765 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:14,115 INFO o.a.j.t.JMeterThread: Thread started: Pokemon API Tests 1-5
+2025-05-31 14:59:15,107 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -997,7 +1000,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:08,763 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:16,118 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1021,7 +1024,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:09,761 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:17,109 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1045,7 +1048,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:10,757 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:18,101 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1069,7 +1072,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:11,764 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:19,107 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1093,7 +1096,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:12,761 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:20,116 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1117,7 +1120,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:13,741 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:21,108 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1141,7 +1144,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:14,750 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:22,101 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1165,7 +1168,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:15,742 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:23,109 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1189,7 +1192,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:16,752 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:24,109 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1213,7 +1216,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:17,754 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:25,117 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1237,7 +1240,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:18,752 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:26,105 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1261,7 +1264,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:19,759 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:27,116 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1285,7 +1288,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:20,756 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:28,115 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1309,7 +1312,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:21,765 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:29,107 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1333,7 +1336,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:22,762 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:30,105 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1357,7 +1360,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:23,754 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:31,109 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1381,7 +1384,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:24,752 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:32,112 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1405,7 +1408,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:25,763 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:33,116 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1429,7 +1432,7 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:26,765 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:34,099 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1453,14 +1456,11 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:27,250 INFO o.a.j.t.JMeterThread: Thread finished: Pokemon API Tests 1-5
-2025-05-28 21:05:27,348 INFO o.a.j.t.JMeterThread: Thread finished: Pokemon API Tests 1-4
-2025-05-28 21:05:27,392 INFO o.a.j.t.JMeterThread: Thread finished: Pokemon API Tests 1-3
-2025-05-28 21:05:27,418 INFO o.a.j.t.JMeterThread: Thread finished: Pokemon API Tests 1-2
-2025-05-28 21:05:27,736 INFO o.a.j.t.JMeterThread: Thread finished: Pokemon API Tests 1-1
-2025-05-28 21:05:27,737 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2025-05-28 21:05:27,741 INFO o.a.j.v.b.BackendListener: Worker ended
-2025-05-28 21:05:27,741 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:34,581 INFO o.a.j.t.JMeterThread: Thread finished: Pokemon API Tests 1-5
+2025-05-31 14:59:34,756 INFO o.a.j.t.JMeterThread: Thread finished: Pokemon API Tests 1-4
+2025-05-31 14:59:34,759 INFO o.a.j.t.JMeterThread: Thread finished: Pokemon API Tests 1-3
+2025-05-31 14:59:34,780 INFO o.a.j.t.JMeterThread: Thread finished: Pokemon API Tests 1-2
+2025-05-31 14:59:35,101 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1484,7 +1484,10 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:27,742 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
+2025-05-31 14:59:35,113 INFO o.a.j.t.JMeterThread: Thread finished: Pokemon API Tests 1-1
+2025-05-31 14:59:35,114 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-05-31 14:59:35,116 INFO o.a.j.v.b.BackendListener: Worker ended
+2025-05-31 14:59:35,118 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused: no further information
 java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
@@ -1511,4 +1514,4 @@ java.net.ConnectException: Connection refused: no further information
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-2025-05-28 21:05:27,742 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2025-05-31 14:59:35,118 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)

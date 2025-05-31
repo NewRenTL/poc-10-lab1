@@ -498,3 +498,178 @@
 2025-05-29 02:05:58.247 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
 2025-05-29 02:05:58.247 [IMAGES_API] INFO: [IMAGES_API][HEALTH_CHECK] Health check requested 
 2025-05-29 02:05:58.248 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:53:10.483 [IMAGES_API] INFO: [IMAGES_API][INITIALIZE_DATA] Loading Pokemon image data 
+2025-05-31 19:53:10.487 [IMAGES_API] INFO: [IMAGES_API][INITIALIZE_DATA] Image data loaded successfully {"total_pokemon":3}
+2025-05-31 19:53:10.493 [IMAGES_API] INFO: [IMAGES_API][SERVER_START] Images API server running on port 3003 
+2025-05-31 19:53:14.692 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:53:14.694 [IMAGES_API] INFO: [IMAGES_API][HEALTH_CHECK] Health check requested 
+2025-05-31 19:53:14.702 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":9,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:53:44.808 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:53:44.809 [IMAGES_API] INFO: [IMAGES_API][HEALTH_CHECK] Health check requested 
+2025-05-31 19:53:44.811 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":3,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:54:14.902 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:54:14.902 [IMAGES_API] INFO: [IMAGES_API][HEALTH_CHECK] Health check requested 
+2025-05-31 19:54:14.903 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:54:17.766 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:17.768 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:54:17.769 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:54:17.769 [IMAGES_API] WARN: [IMAGES_API][GET_POKEMON_IMAGES] WARNING: No local images found for: pikachu,pikachu, generating fallback URLs 
+2025-05-31 19:54:18.966 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 1198ms {"latency":1198,"startTime":1748721257768,"endTime":1748721258966,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:54:18.967 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:54:18.968 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":1202,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:19.475 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:19.476 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:54:19.476 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:54:19.520 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 44ms {"latency":44,"startTime":1748721259476,"endTime":1748721259520,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:54:19.521 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:54:19.521 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":46,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:21.475 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:21.476 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:54:21.476 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:54:21.512 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 36ms {"latency":36,"startTime":1748721261476,"endTime":1748721261512,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:54:21.513 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:54:21.513 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":38,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:23.480 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:23.481 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:54:23.481 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:54:23.534 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 53ms {"latency":53,"startTime":1748721263481,"endTime":1748721263534,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:54:23.534 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:54:23.535 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":55,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:25.457 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:25.458 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:54:25.458 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:54:25.492 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 34ms {"latency":34,"startTime":1748721265458,"endTime":1748721265492,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:54:25.492 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:54:25.493 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":36,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:25.786 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:25.786 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:54:25.786 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:54:25.821 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 35ms {"latency":35,"startTime":1748721265786,"endTime":1748721265821,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:54:25.821 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:54:25.822 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":36,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:25.850 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:25.851 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:54:25.851 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:54:25.888 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 37ms {"latency":37,"startTime":1748721265851,"endTime":1748721265888,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:54:25.889 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:54:25.890 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":40,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:27.659 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:27.660 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:54:27.660 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:54:27.692 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 32ms {"latency":32,"startTime":1748721267660,"endTime":1748721267692,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:54:27.692 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:54:27.693 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":34,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:29.671 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:29.672 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:54:29.672 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:54:29.734 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 62ms {"latency":62,"startTime":1748721269672,"endTime":1748721269734,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:54:29.735 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:54:29.735 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":64,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:31.621 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:31.621 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:54:31.622 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:54:31.657 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 36ms {"latency":36,"startTime":1748721271621,"endTime":1748721271657,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:54:31.657 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:54:31.658 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":37,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:31.959 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:31.959 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:54:31.960 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:54:31.994 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 35ms {"latency":35,"startTime":1748721271959,"endTime":1748721271994,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:54:31.994 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:54:31.995 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":37,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:32.191 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:32.192 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:54:32.192 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:54:32.231 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 39ms {"latency":39,"startTime":1748721272192,"endTime":1748721272231,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:54:32.232 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:54:32.233 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":42,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:33.818 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:33.819 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:54:33.819 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:54:33.857 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 38ms {"latency":38,"startTime":1748721273819,"endTime":1748721273857,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:54:33.857 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:54:33.858 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":40,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:35.841 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:35.842 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:54:35.842 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:54:35.882 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 40ms {"latency":40,"startTime":1748721275842,"endTime":1748721275882,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:54:35.882 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:54:35.883 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":42,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:37.793 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:37.793 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:54:37.794 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:54:37.829 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 36ms {"latency":36,"startTime":1748721277793,"endTime":1748721277829,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:54:37.829 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:54:37.829 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":36,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:38.118 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:38.119 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:54:38.119 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:54:38.152 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 33ms {"latency":33,"startTime":1748721278119,"endTime":1748721278152,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:54:38.152 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:54:38.153 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":35,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:38.351 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:38.352 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:54:38.352 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:54:38.385 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 34ms {"latency":34,"startTime":1748721278351,"endTime":1748721278385,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:54:38.385 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:54:38.386 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":35,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:39.982 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:39.983 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:54:39.984 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:54:40.018 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 35ms {"latency":35,"startTime":1748721279983,"endTime":1748721280018,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:54:40.018 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:54:40.019 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":37,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:42.010 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:42.011 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:54:42.011 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:54:42.045 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 34ms {"latency":34,"startTime":1748721282011,"endTime":1748721282045,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:54:42.045 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:54:42.046 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":36,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:44.989 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:54:44.990 [IMAGES_API] INFO: [IMAGES_API][HEALTH_CHECK] Health check requested 
+2025-05-31 19:54:44.990 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:55:15.055 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:55:15.055 [IMAGES_API] INFO: [IMAGES_API][HEALTH_CHECK] Health check requested 
+2025-05-31 19:55:15.056 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:55:28.364 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:28.365 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:55:28.365 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:55:28.426 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 62ms {"latency":62,"startTime":1748721328364,"endTime":1748721328426,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:55:28.427 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:55:28.427 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":63,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:30.362 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:30.363 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:55:30.363 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:55:30.429 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 66ms {"latency":66,"startTime":1748721330363,"endTime":1748721330429,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:55:30.429 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:55:30.430 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":68,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:32.358 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:32.359 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:55:32.359 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:55:32.399 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 40ms {"latency":40,"startTime":1748721332359,"endTime":1748721332399,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:55:32.400 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:55:32.400 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":42,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:34.353 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:34.353 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:55:34.354 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:55:34.400 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 47ms {"latency":47,"startTime":1748721334353,"endTime":1748721334400,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:55:34.400 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:55:34.401 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":48,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:34.708 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:34.708 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:55:34.709 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:55:34.774 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 66ms {"latency":66,"startTime":1748721334708,"endTime":1748721334774,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:55:34.775 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:55:34.775 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":67,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:36.352 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:36.353 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:55:36.353 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:55:36.404 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 51ms {"latency":51,"startTime":1748721336353,"endTime":1748721336404,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:55:36.405 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:55:36.405 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":53,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:36.545 [IMAGES_API] INFO: [IMAGES_API][REQUEST_STARTED] GET /api/images/pikachu,pikachu {"method":"GET","url":"/api/images/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:36.546 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Execution started 
+2025-05-31 19:55:36.546 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Fetching images for: pikachu,pikachu {"type":"all","format":"json"}
+2025-05-31 19:55:36.580 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Latency: 34ms {"latency":34,"startTime":1748721336546,"endTime":1748721336580,"pokemon":"pikachu,pikachu","type":"all","format":"json"}
+2025-05-31 19:55:36.581 [IMAGES_API] INFO: [IMAGES_API][GET_POKEMON_IMAGES] Successfully fetched images for: pikachu,pikachu {"pokemon":"pikachu,pikachu","image_count":5,"type":"all"}
+2025-05-31 19:55:36.581 [IMAGES_API] INFO: [IMAGES_API][REQUEST_COMPLETED] GET /api/images/pikachu,pikachu - 200 {"method":"GET","url":"/api/images/pikachu,pikachu","statusCode":200,"latency":36,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}

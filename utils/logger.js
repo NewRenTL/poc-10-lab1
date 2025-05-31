@@ -35,7 +35,6 @@ class StandardLogger {
         });
     }
 
-    // Método estándar de logging: {Fecha}{Modulo}{API}{Funcion} Message
     logApiCall(api, functionName, message, metadata = {}) {
         const standardMessage = `[${api}][${functionName}] ${message}`;
         this.logger.info(standardMessage, metadata);
@@ -76,7 +75,6 @@ class StandardLogger {
     }
 }
 
-// Middleware para medir latencia de requests
 const latencyMiddleware = (logger, apiName) => {
     return (req, res, next) => {
         const startTime = Date.now();
@@ -119,7 +117,6 @@ const latencyMiddleware = (logger, apiName) => {
     };
 };
 
-// Utilidad para medir tiempo de ejecución de funciones
 const measureExecutionTime = async (logger, api, functionName, asyncFunction, additionalData = {}) => {
     const startTime = Date.now();
     logger.logApiCall(api, functionName, 'Execution started');

@@ -9,19 +9,16 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const logger = new StandardLogger('GATEWAY');
 
-// Crear directorio de logs si no existe
 const logsDir = path.join(__dirname, 'logs');
 if (!fs.existsSync(logsDir)) {
     fs.mkdirSync(logsDir, { recursive: true });
 }
 
-// Middleware
 app.use(helmet());
 app.use(cors());
 app.use(express.json());
 app.use(latencyMiddleware(logger, 'GATEWAY'));
 
-// Configuración de URLs de microservicios
 const MICROSERVICES = {
     SEARCH_API: process.env.SEARCH_API_URL || 'http://localhost:3001',
     STATS_API: process.env.STATS_API_URL || 'http://localhost:3002',
@@ -29,7 +26,6 @@ const MICROSERVICES = {
     POKE_API: process.env.POKE_API_URL || 'http://localhost:3004'
 };
 
-// Endpoint de información del Gateway
 app.get('/', (req, res) => {
     logger.logApiCall('GATEWAY', 'ROOT_INFO', 'Gateway info requested');
     
@@ -61,13 +57,11 @@ app.get('/', (req, res) => {
     });
 });
 
-// Proxy endpoints para cada microservicio
 app.use('/poke/search', createProxy('SEARCH_API', '/poke/search'));
 app.use('/api/pokemon', createProxy('POKE_API', '/api/pokemon'));
 app.use('/api/stats', createProxy('STATS_API', '/api/stats'));
 app.use('/api/images', createProxy('IMAGES_API', '/api/images'));
 
-// Función para crear proxy a microservicios
 function createProxy(serviceName, basePath) {
     return async (req, res, next) => {
         const axios = require('axios');
@@ -93,7 +87,7 @@ function createProxy(serviceName, basePath) {
                 params: req.query,
                 headers: {
                     ...req.headers,
-                    host: undefined // Remove host header to avoid conflicts
+                    host: undefined 
                 },
                 timeout: 30000
             });
@@ -133,7 +127,6 @@ function createProxy(serviceName, basePath) {
     };
 }
 
-// Endpoint de estado general de todos los microservicios
 app.get('/status', async (req, res) => {
     const functionName = 'HEALTH_STATUS';
     const axios = require('axios');
@@ -192,7 +185,6 @@ app.get('/status', async (req, res) => {
     res.status(responseCode).json(status);
 });
 
-// Endpoint de métricas agregadas
 app.get('/metrics', async (req, res) => {
     const functionName = 'GET_METRICS';
     
@@ -211,9 +203,7 @@ app.get('/metrics', async (req, res) => {
             timestamp: new Date().toISOString()
         };
 
-        // En un entorno real, aquí recopilarías métricas de cada microservicio
-        // Por ahora, proporcionamos métricas básicas del gateway
-        
+
         logger.logApiCall('GATEWAY', functionName, 'Metrics collected successfully');
         res.json(metrics);
 
@@ -226,7 +216,6 @@ app.get('/metrics', async (req, res) => {
     }
 });
 
-// Endpoint para pruebas de carga - útil para JMeter
 app.get('/test/load/:pokemonName', async (req, res) => {
     const functionName = 'LOAD_TEST';
     const { pokemonName } = req.params;
@@ -238,12 +227,10 @@ app.get('/test/load/:pokemonName', async (req, res) => {
     });
 
     try {
-        // Simular delay si se especifica
         if (delay > 0) {
             await new Promise(resolve => setTimeout(resolve, parseInt(delay)));
         }
 
-        // Respuesta simple para testing
         const response = {
             pokemon: pokemonName,
             timestamp: new Date().toISOString(),
@@ -271,7 +258,6 @@ app.get('/test/load/:pokemonName', async (req, res) => {
     }
 });
 
-// Health check del gateway
 app.get('/health', (req, res) => {
     logger.logApiCall('GATEWAY', 'HEALTH_CHECK', 'Gateway health check requested');
     
@@ -285,7 +271,6 @@ app.get('/health', (req, res) => {
     });
 });
 
-// Middleware de manejo de errores global
 app.use((error, req, res, next) => {
     logger.logApiError('GATEWAY', 'GLOBAL_ERROR', 'Unhandled error in gateway', error);
     res.status(500).json({ 
@@ -295,7 +280,6 @@ app.use((error, req, res, next) => {
     });
 });
 
-// Middleware para rutas no encontradas
 app.use('*', (req, res) => {
     logger.logApiWarning('GATEWAY', 'NOT_FOUND', `Route not found: ${req.originalUrl}`, {
         method: req.method,
@@ -320,7 +304,6 @@ app.use('*', (req, res) => {
     });
 });
 
-// Manejo graceful de shutdown
 process.on('SIGTERM', () => {
     logger.logApiCall('GATEWAY', 'SHUTDOWN', 'Received SIGTERM, shutting down gracefully');
     process.exit(0);
@@ -339,9 +322,9 @@ app.listen(PORT, () => {
     });
     
     console.log(`
-🚀 Pokemon Microservices Gateway Started!
-📍 Port: ${PORT}
-🔗 Available endpoints:
+  Pokemon Microservices Gateway Started!
+  Port: ${PORT}
+ Available endpoints:
    • Gateway Info: http://localhost:${PORT}/
    • Search: http://localhost:${PORT}/poke/search?pokemon_name=pikachu
    • Pokemon Data: http://localhost:${PORT}/api/pokemon/charizard
@@ -351,7 +334,7 @@ app.listen(PORT, () => {
    • Status: http://localhost:${PORT}/status
    • Metrics: http://localhost:${PORT}/metrics
 
-📊 Configured Microservices:
+ Configured Microservices:
    • Search API: ${MICROSERVICES.SEARCH_API}
    • Pokemon API: ${MICROSERVICES.POKE_API}
    • Stats API: ${MICROSERVICES.STATS_API}

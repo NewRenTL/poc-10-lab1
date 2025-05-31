@@ -134,27 +134,17 @@ chmod +x run-jmeter-tests.sh
 ./run-jmeter-tests.sh --check-services   # Verificar servicios antes
 ```
 
-### Opción 2: JMeter Manual
+### Opción 2: JMeter Manual (Instala JMeter en tu máquina)
 
 ```bash
 # Modo GUI (desarrollo)
-jmeter -t jmeter-test-plan.jmx
+jmeter
 
-# Modo comando (producción)
-jmeter -n -t jmeter-test-plan.jmx -l results/results.jtl
+## Luego puede elegir tu plan de test o crearlo
 
-# Con parámetros personalizados
-jmeter -n -t jmeter-test-plan.jmx \
-  -JUSERS=100 \
-  -JRAMP_UP=60 \
-  -JDURATION=300 \
-  -JBASE_URL=http://localhost:3000 \
-  -l results/load-test-results.jtl \
-  -e -o results/html-report
-
-# Solo generar reporte HTML desde archivo existente
-jmeter -g results/results.jtl -o results/html-report
 ```
+
+
 
 ### Configuración de Pruebas
 

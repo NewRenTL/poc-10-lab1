@@ -10,23 +10,19 @@ const app = express();
 const PORT = process.env.POKE_API_PORT || 3004;
 const logger = new StandardLogger('POKE_API');
 
-// Crear directorio de logs si no existe
 const logsDir = path.join(__dirname, '../logs');
 if (!fs.existsSync(logsDir)) {
     fs.mkdirSync(logsDir, { recursive: true });
 }
 
-// Middleware
 app.use(helmet());
 app.use(cors());
 app.use(express.json());
 app.use(latencyMiddleware(logger, 'POKE_API'));
 
-// Cache simple en memoria
 const cache = new Map();
 const CACHE_TTL = 300000; // 5 minutos
 
-// Endpoint para obtener datos de Pokemon
 app.get('/api/pokemon/:identifier', async (req, res) => {
     const functionName = 'GET_POKEMON';
     const { identifier } = req.params;
@@ -44,7 +40,6 @@ app.get('/api/pokemon/:identifier', async (req, res) => {
             async () => {
                 logger.logApiCall('POKE_API', functionName, `Fetching Pokemon: ${identifier}`);
 
-                // Verificar cache
                 const cacheKey = `pokemon_${identifier.toLowerCase()}`;
                 const cached = cache.get(cacheKey);
                 
@@ -53,7 +48,6 @@ app.get('/api/pokemon/:identifier', async (req, res) => {
                     return cached.data;
                 }
 
-                // Llamada a PokeAPI externa
                 const pokeApiUrl = `https://pokeapi.co/api/v2/pokemon/${identifier.toLowerCase()}`;
                 logger.logApiCall('POKE_API', functionName, `Calling external API: ${pokeApiUrl}`);
 
@@ -64,7 +58,6 @@ app.get('/api/pokemon/:identifier', async (req, res) => {
                     }
                 });
 
-                // Procesar y filtrar datos relevantes
                 const pokemonData = {
                     id: response.data.id,
                     name: response.data.name,
@@ -93,7 +86,6 @@ app.get('/api/pokemon/:identifier', async (req, res) => {
                     }
                 };
 
-                // Guardar en cache
                 cache.set(cacheKey, {
                     data: pokemonData,
                     timestamp: Date.now()
@@ -134,7 +126,6 @@ app.get('/api/pokemon/:identifier', async (req, res) => {
     }
 });
 
-// Endpoint para obtener lista de Pokemon (útil para testing)
 app.get('/api/pokemon', async (req, res) => {
     const functionName = 'LIST_POKEMON';
     const { limit = 20, offset = 0 } = req.query;
@@ -181,7 +172,6 @@ app.get('/api/pokemon', async (req, res) => {
     }
 });
 
-// Endpoint de cache stats
 app.get('/api/cache/stats', (req, res) => {
     const functionName = 'CACHE_STATS';
     logger.logApiCall('POKE_API', functionName, 'Cache stats requested');
@@ -196,7 +186,6 @@ app.get('/api/cache/stats', (req, res) => {
     res.json(stats);
 });
 
-// Limpiar cache
 app.delete('/api/cache', (req, res) => {
     const functionName = 'CLEAR_CACHE';
     const sizeBefore = cache.size;
@@ -213,7 +202,6 @@ app.delete('/api/cache', (req, res) => {
     });
 });
 
-// Health check
 app.get('/health', (req, res) => {
     logger.logApiCall('POKE_API', 'HEALTH_CHECK', 'Health check requested');
     res.json({ 
@@ -224,13 +212,11 @@ app.get('/health', (req, res) => {
     });
 });
 
-// Error handling middleware
 app.use((error, req, res, next) => {
     logger.logApiError('POKE_API', 'MIDDLEWARE_ERROR', 'Unhandled error', error);
     res.status(500).json({ error: 'Internal server error' });
 });
 
-// Limpiar cache periódicamente
 setInterval(() => {
     const now = Date.now();
     let cleaned = 0;

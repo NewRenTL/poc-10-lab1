@@ -485,3 +485,180 @@
 2025-05-29 02:05:58.247 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
 2025-05-29 02:05:58.248 [STATS_API] INFO: [STATS_API][HEALTH_CHECK] Health check requested 
 2025-05-29 02:05:58.248 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:53:10.479 [STATS_API] INFO: [STATS_API][INITIALIZE_DATA] Execution started 
+2025-05-31 19:53:10.485 [STATS_API] INFO: [STATS_API][INITIALIZE_DATA] Loading Pokemon stats data 
+2025-05-31 19:53:10.486 [STATS_API] INFO: [STATS_API][INITIALIZE_DATA] Sample data loaded successfully {"total_pokemon":6}
+2025-05-31 19:53:10.492 [STATS_API] INFO: [STATS_API][SERVER_START] Stats API server running on port 3002 
+2025-05-31 19:53:10.494 [STATS_API] INFO: [STATS_API][INITIALIZE_DATA] Latency: 15ms {"latency":15,"startTime":1748721190478,"endTime":1748721190493}
+2025-05-31 19:53:14.692 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:53:14.693 [STATS_API] INFO: [STATS_API][HEALTH_CHECK] Health check requested 
+2025-05-31 19:53:14.704 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":12,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:53:44.808 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:53:44.809 [STATS_API] INFO: [STATS_API][HEALTH_CHECK] Health check requested 
+2025-05-31 19:53:44.810 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":3,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:54:14.902 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:54:14.903 [STATS_API] INFO: [STATS_API][HEALTH_CHECK] Health check requested 
+2025-05-31 19:54:14.903 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:54:17.766 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:17.767 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:54:17.768 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:54:17.769 [STATS_API] WARN: [STATS_API][GET_POKEMON_STATS] WARNING: No local stats found for: pikachu,pikachu, generating mock data 
+2025-05-31 19:54:17.770 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 3ms {"latency":3,"startTime":1748721257767,"endTime":1748721257770,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:54:17.771 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:54:17.772 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":5,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:19.474 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:19.475 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:54:19.475 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:54:19.476 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721259475,"endTime":1748721259476,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:54:19.476 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:54:19.477 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":3,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:21.475 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:21.475 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:54:21.476 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:54:21.477 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721261475,"endTime":1748721261476,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:54:21.477 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:54:21.478 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":3,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:23.480 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:23.481 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:54:23.481 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:54:23.482 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721263481,"endTime":1748721263482,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:54:23.482 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:54:23.483 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":3,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:25.457 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:25.458 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:54:25.458 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:54:25.459 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721265458,"endTime":1748721265459,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:54:25.459 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:54:25.460 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":3,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:25.786 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:25.786 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:54:25.787 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:54:25.788 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 2ms {"latency":2,"startTime":1748721265786,"endTime":1748721265788,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:54:25.788 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:54:25.789 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":3,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:25.850 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:25.851 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:54:25.851 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:54:25.852 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721265851,"endTime":1748721265852,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:54:25.852 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:54:25.853 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":3,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:27.659 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:27.659 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:54:27.660 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:54:27.661 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 2ms {"latency":2,"startTime":1748721267659,"endTime":1748721267661,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:54:27.661 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:54:27.662 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":3,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:29.671 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:29.672 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:54:29.672 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:54:29.673 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721269672,"endTime":1748721269673,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:54:29.673 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:54:29.674 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":3,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:31.621 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:31.621 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:54:31.622 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:54:31.622 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721271621,"endTime":1748721271622,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:54:31.623 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:54:31.623 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":2,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:31.958 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:31.959 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:54:31.959 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:54:31.960 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721271959,"endTime":1748721271960,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:54:31.960 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:54:31.961 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":3,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:32.191 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:32.191 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:54:32.192 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:54:32.192 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721272191,"endTime":1748721272192,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:54:32.192 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:54:32.193 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":3,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:33.818 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:33.819 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:54:33.819 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:54:33.820 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721273819,"endTime":1748721273820,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:54:33.820 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:54:33.821 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":3,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:35.841 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:35.842 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:54:35.842 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:54:35.842 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 0ms {"latency":0,"startTime":1748721275842,"endTime":1748721275842,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:54:35.843 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:54:35.843 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":2,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:37.793 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:37.793 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:54:37.794 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:54:37.794 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721277793,"endTime":1748721277794,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:54:37.795 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:54:37.795 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":2,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:38.118 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:38.118 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:54:38.119 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:54:38.119 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721278118,"endTime":1748721278119,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:54:38.120 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:54:38.120 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":2,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:38.351 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:38.351 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:54:38.352 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:54:38.352 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721278351,"endTime":1748721278352,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:54:38.352 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:54:38.353 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":2,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:39.982 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:39.983 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:54:39.983 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:54:39.984 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721279983,"endTime":1748721279984,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:54:39.984 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:54:39.985 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":3,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:42.010 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:42.011 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:54:42.011 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:54:42.012 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721282011,"endTime":1748721282012,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:54:42.012 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:54:42.013 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":3,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:54:44.989 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:54:44.990 [STATS_API] INFO: [STATS_API][HEALTH_CHECK] Health check requested 
+2025-05-31 19:54:44.990 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:55:15.055 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /health {"method":"GET","url":"/health","userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:55:15.056 [STATS_API] INFO: [STATS_API][HEALTH_CHECK] Health check requested 
+2025-05-31 19:55:15.056 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /health - 200 {"method":"GET","url":"/health","statusCode":200,"latency":1,"userAgent":"curl/8.12.1","ip":"::1"}
+2025-05-31 19:55:28.364 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:28.364 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:55:28.365 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:55:28.366 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721328364,"endTime":1748721328365,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:55:28.366 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:55:28.367 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":3,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:30.362 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:30.363 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:55:30.363 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:55:30.364 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721330363,"endTime":1748721330364,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:55:30.364 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:55:30.365 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":3,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:32.358 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:32.359 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:55:32.360 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:55:32.360 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721332359,"endTime":1748721332360,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:55:32.361 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:55:32.362 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":4,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:34.353 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:34.353 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:55:34.354 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:55:34.354 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721334353,"endTime":1748721334354,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:55:34.355 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:55:34.356 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":3,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:34.708 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:34.708 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:55:34.709 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:55:34.709 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721334708,"endTime":1748721334709,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:55:34.709 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:55:34.710 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":2,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:36.352 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:36.353 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:55:36.353 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:55:36.354 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721336353,"endTime":1748721336354,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:55:36.354 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:55:36.355 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":3,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:36.545 [STATS_API] INFO: [STATS_API][REQUEST_STARTED] GET /api/stats/pikachu,pikachu {"method":"GET","url":"/api/stats/pikachu,pikachu","userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
+2025-05-31 19:55:36.546 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Execution started 
+2025-05-31 19:55:36.546 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Fetching stats for: pikachu,pikachu 
+2025-05-31 19:55:36.547 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Latency: 1ms {"latency":1,"startTime":1748721336546,"endTime":1748721336547,"pokemon":"pikachu,pikachu"}
+2025-05-31 19:55:36.547 [STATS_API] INFO: [STATS_API][GET_POKEMON_STATS] Successfully fetched stats for: pikachu,pikachu {"pokemon":"pikachu,pikachu","total_stats":300,"legendary":false}
+2025-05-31 19:55:36.548 [STATS_API] INFO: [STATS_API][REQUEST_COMPLETED] GET /api/stats/pikachu,pikachu - 200 {"method":"GET","url":"/api/stats/pikachu,pikachu","statusCode":200,"latency":3,"userAgent":"axios/1.9.0","ip":"::ffff:172.20.0.6"}
